@@ -52,12 +52,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Toegankelijkheidstest 1/2 (week 1)
-
-<details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
-
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+<details>
+  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+de screenreader las METER&M'S in plaats van m&m's
+door twee keer op de pijltjestoets te tikken, ging ie van vertellen over menu naar klikken op menu. ik weet niet of ik dit zelf handig zou vinden.
+de screenreader beschreef de afbeelding voordat hij vertelede waar de knop naartoe zou leiden: ÄFBEELDING, HARTJES GEVULD MET RODE EN WITTE M&M'S
+hij vertelde ook over een afbeelding die helemaal geen link was, hierdoor was er geen onderscheid te horen tussen een afbeeldingsknop en een normale afbeelding.
+de "ontwerp je eigen m&m pagina" is ontbruikbaar voor mensen die een screenreader gebruiken.
+er miste op de homepagina een aantal screenreader prompts.
+er zit een bewegend element, die beweegt tijdens het scrollen(in ieder geval op de laptop versie) deze word per woord voorgelezen, een slechtziende krijgt dus geen volledige ervaring van wat er getoond word op het scherm.
+sommige teksten waren in het engels
+de plaatjes die geen knoppen zijn werden naarmate je verder op de pagina was steeds vervelender om mee te werken (item heeft geen primaire actie).
+er werd niks in detail verteld over de afbeeldingen. "design verjaardagsmix" "design bruiloft mix" 
+de knop stond elke keer aan de onderkant, je moest elke keer door meerdere teksten en afbeeldingen heenscrollen.
+bij een carrousel menu ging de narrator steeds de vorige afbeelding uitleggen, daardoor wist ik niet meer waar ik was.
+er was soms wel uitleg van wat er te zien was, :buisje m&m's, prijs 3,50/stuk
+iets bestellen op een productpagina was eigenlijk praktisch onmogelijk, ik moest door heel veel dingen scrollen voordat ik de koopknop had gevonden.
+er waren op de website steeds stukjes in het engels en in het nederlands.
+alle knoppen en tekst werden apart verteld, je moest elke keer 3 keer doortikken voordat je bij de knop uitkwam
+er was niet meteen duidelijk wat een knop was en wat niet, wat navigeren moeilijk maakt. 
+je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu was ook weer lastig te bedienen.
+"item heeft geen eigen functie"
+
 
 </details>
 
