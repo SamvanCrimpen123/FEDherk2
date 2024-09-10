@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Sam van Crimpen
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  surface plane
  
 </details>
 
@@ -37,9 +37,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.mms.com/nl-nl?gclid=CjwKCAjw3P-2BhAEEiwA3yPhwHhvWN4N0qFxfYisTy-9rLNvce2CtiWp27-jqr10bQTVnrAixAN5ChoCKwEQAvD_BwE
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  main pagina
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
