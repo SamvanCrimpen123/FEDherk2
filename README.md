@@ -129,6 +129,16 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   - nog een punt
   - ...
 
+  a11y goede plek om accessibility info te vinden
+  alistapart.com article now you see mee over hoe je dingen kan verbergen
+  naar een andere pagina is een link
+aria label voor iets onzichtbaars, bijvoorbeeld specifieke knop (shop now tshirts ipv shop now)
+zorg dat de code is geschreven voor screenreader, tekst bovenaan etc etc
+lijstje met social media is ook een nav 
+mdn is altijd up to date voor html dingen!
+
+
+
 </details>
 
 
