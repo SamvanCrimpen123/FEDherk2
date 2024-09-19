@@ -82,7 +82,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 
 
 ## Breakdownschets (week 1)
-
+<a href="https://miro.com/app/board/uXjVLdggZVo=/?share_link_id=460490364818">miro board link met uitwekringen 1e pagina</a>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
