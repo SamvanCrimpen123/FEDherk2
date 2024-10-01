@@ -108,7 +108,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep.
+  ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep. efhuggjkgj
 
 
   ### Agenda voor meeting
