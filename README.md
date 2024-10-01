@@ -87,10 +87,10 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -108,7 +108,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep. efhuggjkgj
+  ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep.
 
 
   ### Agenda voor meeting
