@@ -56,14 +56,17 @@ header nav {
 /* jouw code */
 
 /* 2e section, bruiloft traktatie disney */
-section:nth-of-type(2) ul li:nth-child(1) {
+/* 1e li in 2e ul in main */
+main section ul li:nth-child(1) {
 	background-color: lightblue;
   }
   
-  section:nth-of-type(2) ul li:nth-child(2) {
+  /* 2e li in 2e ul in main  */
+  main section ul li:nth-child(2) {
 	background-color: lightgreen;
   }
   
-  section:nth-of-type(2) ul li:nth-child(3) {
+  /* 3e li in 2e ul in main  */
+  main section ul li:nth-child(3) {
 	background-color: lightpink;
   }
