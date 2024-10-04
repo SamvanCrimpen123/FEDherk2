@@ -199,6 +199,8 @@ mdn is altijd up to date voor html dingen!
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  zet placeholders als images voordat je er daadwerkelijke images in zet? 
+  door flex komt een ul naast elkaar
 
 
   ### Agenda voor meeting
