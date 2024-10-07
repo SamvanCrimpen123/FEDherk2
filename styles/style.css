@@ -27,7 +27,7 @@
 /****************/
 /* HEADER */
 /****************/
-
+/* HAMBURGERMENU */
 /* BUTTON HAMBURGER MENU */
 header section ul {
 	display: grid;
@@ -71,6 +71,8 @@ header nav {
 	translate:-100% 0;
 	transition:.5s;
 }
+/* EIND HAMBURGERMENU */
+
 /* jouw code */
 
 /* 2e section, bruiloft traktatie disney */
