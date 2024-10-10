@@ -1,3 +1,12 @@
+
+@font-face {
+	font-family: fontsans;
+	src: url("../font/AllTogetherSans-Regular.woff2");
+	font-weight: 400;
+  }
+
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -29,9 +38,10 @@
 /****************/
 /* HAMBURGERMENU */
 /* BUTTON HAMBURGER MENU */
-header section ul {
+main section ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
+	font-family: fontsans;
 }
 
 header button {
@@ -90,5 +100,14 @@ main section ul li:nth-child(1) {
   main section ul li:nth-child(3) {
 	background-color: lightpink;
   }
+
+
+  /* section bruiloft,cadeau,disney */
+
+  /* section bruiloft,cadeau,disney eind*/
+
+  /* bewegende ul li */
+
+  /* bewegende ul li eind*/
 
  
