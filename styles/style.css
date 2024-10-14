@@ -38,6 +38,10 @@
 /****************/
 /* HAMBURGERMENU */
 /* BUTTON HAMBURGER MENU */
+header{
+	display: flex;
+	justify-content: center;
+}
 main section ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -82,8 +86,16 @@ header nav {
 	transition:.5s;
 }
 /* EIND HAMBURGERMENU */
+/* BEGIN 2E MENU IN HEADER */
+header nav section :nth-of-type(2){
+display: grid;
+color: pink;
+}
 
-/* jouw code */
+/* EIND 2E MENU IN HEADER */
+
+/* EIND HEADER */
+
 
 /* 2e section, bruiloft traktatie disney */
 /* 1e li in 2e ul in main */
