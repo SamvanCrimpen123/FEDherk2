@@ -1,6 +1,6 @@
 
 @font-face {
-	font-family: fontsans;
+	font-family: "fontsans";
 	src: url("../font/AllTogetherSans-Regular.woff2");
 	font-weight: 400;
   }
@@ -41,7 +41,7 @@
 main section ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	font-family: fontsans;
+	font-family: "fontsans";
 }
 
 header button {
