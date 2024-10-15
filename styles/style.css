@@ -5,7 +5,9 @@
 	font-weight: 400;
   }
 
-
+ul{
+	list-style: none;
+}
 
 /**************/
 /* CSS REMEDY */
@@ -87,10 +89,18 @@ header nav {
 }
 /* EIND HAMBURGERMENU */
 /* BEGIN 2E MENU IN HEADER */
-header nav section :nth-of-type(2){
-display: grid;
-color: pink;
+section :nth-of-type(2) ul {
+	display: flex;
+	gap:20em;
+	justify-content: space-between;
 }
+
+
+header img{
+width:80px;
+height: auto;
+}
+
 
 /* EIND 2E MENU IN HEADER */
 
