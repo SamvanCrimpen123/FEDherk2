@@ -5,9 +5,6 @@
 	font-weight: 400;
   }
 
-ul{
-	list-style: none;
-}
 
 /**************/
 /* CSS REMEDY */
@@ -33,6 +30,9 @@ ul{
 /****************/
 /* JOUW STYLING */
 /****************/
+ul{
+	list-style: none;
+}
 
 
 /****************/
@@ -50,7 +50,7 @@ main section ul {
 	font-family: "fontsans";
 }
 
-header button {
+header nav button {
 	order:-1;
 	position:relative;
 	z-index:1;
@@ -111,6 +111,7 @@ height: auto;
 /* 1e li in 2e ul in main */
 main section ul li:nth-child(1) {
 	background-color: lightpink;
+	ali
   }
   main section ul li img{
 	width: 500px;
