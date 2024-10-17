@@ -154,6 +154,8 @@ height: 459.33px;
 border-radius: 50%;
 }
 
+/* SECTION BRUILOFT TRAKTATIE DISNEY*/
+
 /* 1e section, bruiloft traktatie disney */
 main section:nth-of-type(1) img {
 	width:355.33px;
@@ -163,8 +165,13 @@ main section:nth-of-type(1) img {
 /* 2e section, bruiloft traktatie disney */
 /* 1e li in 2e ul in main */
 main section ul li:nth-child(1) {
-	background-color: lightpink;
-	ali
+	display: flex;
+	align-items: center;
+	background-color:#ffc9e0;
+	border-radius: 10%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 5%;
+	
   }
   main section ul li img{
 	width: 500px;
@@ -173,17 +180,16 @@ main section ul li:nth-child(1) {
   /* 2e li in 2e ul in main  */
   main section ul li:nth-child(2) {
 	background-color: blue;
+	border-radius: 5%;
   }
   
   /* 3e li in 2e ul in main  */
   main section ul li:nth-child(3) {
 	background-color: red;
+	border-radius: 5%;
   }
 
-
-  /* section bruiloft,cadeau,disney */
-
-  /* section bruiloft,cadeau,disney eind*/
+  /* SECTION BRUILOFT TRAKTATIE DISNEY EIND*/
 
   /* bewegende ul li */
 
