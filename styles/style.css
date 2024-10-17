@@ -13,11 +13,6 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -53,10 +48,6 @@ body{
 /* BUTTON HAMBURGER MENU */
 
 
-header{
-	display: flex;
-	justify-content: center;
-}
 main section ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -68,6 +59,7 @@ header{
 	line-height:1;
 	background-color: white;
 	display:flex;
+	flex-wrap: wrap;
 	justify-content:space-between;
 	align-items:center;
 	position:sticky;
@@ -80,7 +72,7 @@ header a {
 	text-decoration:none;
   }
 
-header nav button {
+header button {
 	order:-1;
 	position:relative;
 	z-index:1;
@@ -93,11 +85,6 @@ header nav button {
 	margin: 3em;
 }
 
-header nav.open,
-header nav:focus-within {
-	translate:0 0;
-}
-
 header button img{
 	width: 50px;
 	height: 50px;
@@ -106,6 +93,13 @@ header button img{
 button :focus{
 	outline: none;
 }
+
+header nav.open,
+header nav:focus-within {
+	translate:0 0;
+}
+
+
 /* EIND BUTTON HAMBURGERMENU */
 
 header nav {
@@ -155,7 +149,7 @@ border-radius: 50%;
 }
 
 /* SECTION BRUILOFT TRAKTATIE DISNEY*/
-
+/* display inline block(?) */
 /* 1e section, bruiloft traktatie disney */
 main section:nth-of-type(1) img {
 	width:355.33px;
