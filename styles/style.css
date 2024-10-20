@@ -48,7 +48,7 @@ body{
 /* BUTTON HAMBURGER MENU */
 
 
-main section ul {
+header ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
 	font-family: "fontsans";
@@ -123,11 +123,9 @@ header nav {
 
 /* BEGIN 2E MENU IN HEADER */
 header nav:nth-of-type(2) ul {
-	background-color: purple;
 	display: flex;
 	gap:20em;
 	justify-content: space-between;
-	display: grid;
 }
 
 header img{
@@ -140,11 +138,26 @@ height: auto;
 
 /* EIND HEADER */
 
+
+/* HOE KRIJG IK HIER DE GRIJZE UGLY ASS VORMGEVING WEG! */
+main section:nth-of-type(1) button{
+position: absolute;
+border-color: purple;
+background-color: green;
+border-radius: 50%;
+outline: none;
+box-flex: wrap;
+}
+
+
 main img:nth-of-type(1){
 width: 459.33px;
 height: 459.33px;
 border-radius: 50%;
 }
+
+
+
 
 /* SECTION BRUILOFT TRAKTATIE DISNEY*/
 /* display inline block(?) */
