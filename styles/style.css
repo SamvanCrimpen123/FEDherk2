@@ -99,6 +99,15 @@ header nav:focus-within {
 	translate:0 0;
 }
 
+header > button:first-of-type {
+	/* POSITIONERING HAMBURGERMENU BUTTON */
+	display:grid;
+	grid-template-columns:min-content min-content;
+	grid-gap:.25em;
+	align-items:center;
+	font-weight:bold; 
+  }
+
 
 /* EIND BUTTON HAMBURGERMENU */
 
@@ -107,18 +116,19 @@ header nav {
 	inset:0;
 	padding-top:2em;
 	background-color:lightyellow;
-	
 	translate:-100% 0;
 	transition:.5s;
 }
 /* EIND HAMBURGERMENU */
+
 /* BEGIN 2E MENU IN HEADER */
-section :nth-of-type(2) ul {
+header nav:nth-of-type(2) ul {
+	background-color: purple;
 	display: flex;
 	gap:20em;
 	justify-content: space-between;
+	display: grid;
 }
-
 
 header img{
 width:80px;
@@ -127,18 +137,6 @@ height: auto;
 
 
 /* EIND 2E MENU IN HEADER */
-
-
-header > button:first-of-type {
-	/* POSITIONERING HAMBURGERMENU BUTTON */
-	display:grid;
-	grid-template-columns:min-content min-content;
-	grid-gap:.25em;
-	align-items:center;
-	
-	font-weight:bold; 
-  }
-
 
 /* EIND HEADER */
 
