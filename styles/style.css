@@ -139,8 +139,6 @@ height: auto;
 
 /* EIND HEADER */
 
-
-/* HOE KRIJG IK HIER DE GRIJZE UGLY ASS VORMGEVING WEG! */
 main section:nth-of-type(1) a{
 border-color: purple;
 background-color: green;
@@ -149,10 +147,10 @@ box-flex: wrap;
 border: none;
 }
 
-
+/* eerste ronde image: pixel to em converter gebruikt https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
 main img:nth-of-type(1){
-width: 459.33px;
-height: 459.33px;
+width:  28.708125em;
+height:  28.708125em;
 border-radius: 50%;
 }
 
@@ -179,7 +177,6 @@ main section ul li:nth-child(1) {
 	border-radius: 10%;
 	padding: 10px 10px 10px 10px;
 	border-radius: 5%;
-	
   }
   /* main section ul li img{
 	width: 500px;
