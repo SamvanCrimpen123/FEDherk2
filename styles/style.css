@@ -143,12 +143,12 @@ height: auto;
 
 
 /* HOE KRIJG IK HIER DE GRIJZE UGLY ASS VORMGEVING WEG! */
-main section:nth-of-type(1) button{
-position: absolute;
+main section:nth-of-type(1) a{
 border-color: purple;
 background-color: green;
 border-radius: 50%;
 box-flex: wrap;
+border: none;
 }
 
 
@@ -180,9 +180,9 @@ main section ul li:nth-child(1) {
 	border-radius: 5%;
 	
   }
-  main section ul li img{
+  /* main section ul li img{
 	width: 500px;
-  }
+  } */
   
   /* 2e li in 2e ul in main  */
   main section ul li:nth-child(2) {
@@ -202,4 +202,7 @@ main section ul li:nth-child(1) {
 
   /* bewegende ul li eind*/
 
+  main section li img {
+	width: 100%;
+  }
  
