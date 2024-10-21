@@ -25,6 +25,9 @@
 /****************/
 /* JOUW STYLING */
 /****************/
+main image{
+	width: 100%;
+}
 ul{
 	list-style: none;
 }
@@ -145,7 +148,6 @@ position: absolute;
 border-color: purple;
 background-color: green;
 border-radius: 50%;
-outline: none;
 box-flex: wrap;
 }
 
