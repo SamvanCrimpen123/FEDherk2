@@ -20,7 +20,9 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#eee;
+	--color-titels:brown;
 }
+
 
 /****************/
 /* JOUW STYLING */
@@ -43,6 +45,10 @@ body{
   /* POSITIONERING IMAGE HEADER */
   header > a:first-of-type img {
 	height:3em;
+  }
+
+  header{
+	position: fixed;
   }
 
 /* HAMBURGERMENU */
@@ -71,6 +77,7 @@ header a {
 	padding:.5em 0;
 	color:var(--general-color);
 	text-decoration:none;
+	display: flex;
   }
 
 header button {
@@ -140,8 +147,9 @@ height: auto;
 /* EIND HEADER */
 
 main section:nth-of-type(1) a{
-border-color: purple;
-background-color: green;
+padding: 1em;
+background-color: white;
+border-color: rainbow;
 border-radius: 50%;
 box-flex: wrap;
 border: none;
@@ -163,21 +171,46 @@ main image{
 }
 /* display inline block(?) */
 /* 1e section, bruiloft traktatie disney */
+main section:nth-of-type(1){
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
 main section:nth-of-type(1) img {
 	width:355.33px;
 	height: 284,26px;
+	align-items: center;
 }
+
 
 /* 2e section, bruiloft traktatie disney */
 /* 1e li in 2e ul in main */
 main section ul li:nth-child(1) {
-	display: flex;
-	align-items: center;
 	background-color:#ffc9e0;
-	border-radius: 10%;
-	padding: 10px 10px 10px 10px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-top: 2em;
 	border-radius: 5%;
+	
   }
+/* POSITIE PLAATJE BOVEN */
+  /* main section ul li:nth-child(1) img:nth-child(1){
+	position:absolute;
+	left:1rem;
+	top:-1rem;
+  } */
+
+
+  /* POSITIE PLAATJE ONDER */
+  main section ul li:nth-child(1) img:nth-child(2){
+	position:absolute;
+	left:1rem;
+	top:-1rem;
+  }
+
   /* main section ul li img{
 	width: 500px;
   } */
@@ -186,14 +219,50 @@ main section ul li:nth-child(1) {
   main section ul li:nth-child(2) {
 	background-color: blue;
 	border-radius: 5%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-top: 2em;
+  }
+  
+  /* POSITIE PLAATJE BOVEN */
+  /* main section ul li:nth-child(2) img:nth-child(1){
+	align-items: center;
+  } */
+
+  /* POSITIE PLAATJE ONDER */
+  main section ul li:nth-child(2) img:nth-child(2){
+	position:absolute;
+	left:1rem;
+	top:-1rem;
   }
   
   /* 3e li in 2e ul in main  */
   main section ul li:nth-child(3) {
 	background-color: red;
 	border-radius: 5%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	margin-top: 2em;
   }
 
+    /* POSITIE PLAATJE BOVEN */
+  /* main section ul li:nth-child(3) img:nth-child(1){
+	align-items: center;
+  } */
+
+  /* POSITIE PLAATJE ONDER */
+  main section ul li:nth-child(3) img:nth-child(2){
+	position:absolute;
+	left:1rem;
+	top:-1rem;
+  }
+  
   /* SECTION BRUILOFT TRAKTATIE DISNEY EIND*/
 
   /* bewegende ul li */
