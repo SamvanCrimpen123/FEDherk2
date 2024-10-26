@@ -216,7 +216,8 @@ main section ul li {
 /* 1E */
 main section ul li:nth-child(1) {
 	background-color:#ffc9e0;	
-	margin-left: 0;
+padding-right: 1.5rem;
+	margin-left: -0.75rem;
 	margin-right: auto;
   }
   main section ul li:nth-child(1) img:nth-of-type(1) {
