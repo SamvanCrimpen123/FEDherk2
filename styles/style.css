@@ -157,114 +157,120 @@ border: none;
 }
 
 /* eerste ronde image: pixel to em converter gebruikt https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
-main img:nth-of-type(1){
-width:  28.708125em;
-height:  28.708125em;
-border-radius: 50%;
+/* To target the image directly within the main element (outside the ul li) */
+main > img:nth-of-type(1) {
+    width: 28.708125em;
+    height: 28.708125em;
+    border-radius: 50%; /* Applies only to the first direct child image of main */
 }
 
 
-
-
-/* SECTION BRUILOFT TRAKTATIE DISNEY*/
+/* 1E SECTION */
+/* ALGEMEEN 1E SECTION  */
 main image{
 	width: 100%;
 }
-/* display inline block(?) */
-/* 1e section, bruiloft traktatie disney */
-main section:nth-of-type(1){
-	display: flex;
-	align-items: center;
-	flex-direction: column;
+main section:nth-of-type(1) {
+    display: flex;
+    align-items: flex-start; /* alle items naar begin flex container */
+    flex-direction: column;
 }
+
 main section:nth-of-type(1) img {
 	width:355.33px;
-	height: 284,26px;
+	height: 284.26px;
 	align-items: center;
 }
 
-
-/* 2e section, bruiloft traktatie disney */
-/* 1e li in 2e ul in main */
-main section ul li:nth-child(1) {
-	background-color:#ffc9e0;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-	margin-top: 2em;
-	border-radius: 5%;
-	
-  }
+main section ul li {
+    position: relative;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 1.5rem 2rem ;
+    margin-top: 2em;
+    border-radius: 5%;
+}
 /* POSITIE PLAATJE BOVEN */
   /* main section ul li:nth-child(1) img:nth-child(1){
 	position:absolute;
 	left:1rem;
 	top:-1rem;
-  } */
-
+  } 
 
   /* POSITIE PLAATJE ONDER */
-  main section ul li:nth-child(1) img:nth-child(2){
+  main section ul li img{
 	position:absolute;
 	left:1rem;
 	top:-1rem;
   }
 
-  /* main section ul li img{
+    /* main section ul li img{
 	width: 500px;
   } */
-  
-  /* 2e li in 2e ul in main  */
+
+/* ALGEMEEN 1E SECTION SLUIT */
+
+/* MAIN 1E SECTION SPECIFICS */
+
+/* 1E */
+main section ul li:nth-child(1) {
+	background-color:#ffc9e0;	
+	margin-left: 0;
+	margin-right: auto;
+  }
+  main section ul li:nth-child(1) img:nth-of-type(1) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
+
+main section ul li:nth-child(1) img:nth-of-type(2) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
+/* 1E EIND */
+
+/* 2E */
   main section ul li:nth-child(2) {
 	background-color: blue;
-	border-radius: 5%;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-	margin-top: 2em;
+	margin-left: auto;
+	margin-right: 0;
   }
-  
-  /* POSITIE PLAATJE BOVEN */
-  /* main section ul li:nth-child(2) img:nth-child(1){
-	align-items: center;
-  } */
+  main section ul li:nth-child(2) img:nth-of-type(1) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
 
-  /* POSITIE PLAATJE ONDER */
-  main section ul li:nth-child(2) img:nth-child(2){
-	position:absolute;
-	left:1rem;
-	top:-1rem;
-  }
-  
-  /* 3e li in 2e ul in main  */
+main section ul li:nth-child(2) img:nth-of-type(2) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
+/* 2E EIND */
+
+/* 3E */
   main section ul li:nth-child(3) {
 	background-color: red;
-	border-radius: 5%;
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 10px;
-	margin-top: 2em;
+	margin-left: 0;
+	margin-right: auto;
   }
+  main section ul li:nth-child(3) img:nth-of-type(1) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
 
-    /* POSITIE PLAATJE BOVEN */
-  /* main section ul li:nth-child(3) img:nth-child(1){
-	align-items: center;
-  } */
+main section ul li:nth-child(3) img:nth-of-type(2) {
+    position: absolute;
+    left: 1rem;
+    top: -1rem;
+}
+/* 3E EIND */
+/* 1E SECTION EIND  */
 
-  /* POSITIE PLAATJE ONDER */
-  main section ul li:nth-child(3) img:nth-child(2){
-	position:absolute;
-	left:1rem;
-	top:-1rem;
-  }
-  
-  /* SECTION BRUILOFT TRAKTATIE DISNEY EIND*/
 
   /* bewegende ul li */
 
@@ -273,4 +279,4 @@ main section ul li:nth-child(1) {
   main section li img {
 	width: 100%;
   }
- 
+ /* display inline block(?) */
