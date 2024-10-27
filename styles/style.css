@@ -286,10 +286,12 @@ main section ul li:nth-child(3) img:nth-of-type(2) {
 	background-color: yellow;
  }
 
- main section :nth-of-type(3){
+ /* DEZE WERKT NIET */
+ /* main section :nth-of-type(3){
 	background-color: gray;
- }
+ } */
 
- main section :nth-of-type(4){
-	background-color: ;
- }
+ /* DEZE WERKT NIET */
+ /* main section :nth-of-type(4){
+	background-color: white;
+ } */
