@@ -27,99 +27,31 @@
 /****************/
 /* JOUW STYLING */
 /****************/
-ul{
-	list-style: none;
-}
-
-body{
-	font-family: "AllTogetherSans", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", sans-serif;
-    font-size: 1rem;
-    font-weight: 300;
-	background-color: lightyellow;
-}
-
-/****************/
 /* HEADER */
-/****************/
-   /* POSITIONERING IMAGE HEADER */
-   header > a:first-of-type img {
-	height:3em;
-  }
+header {
+	width: 100%;
+}
+/* HEADER EIND */
 
-  header{
-	position: fixed;
-	z-index: 1;
-  }
-
-/* HAMBURGERMENU */
-/* BUTTON HAMBURGER MENU */
-
-
-header ul {
+/* HEADER UL */
+header > ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	font-family: "fontsans";
-}
-header{
-	min-height:4em;
-	padding:0 1em;
-	line-height:1;
-	background-color: white;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-between;
-	align-items:center;
-	position:sticky;
-	top:0;
-
-}
-header a {
-	padding:.5em 0;
-	color:var(--general-color);
-	text-decoration:none;
-	display: flex;
-  }
-
-header button {
-	order:-1;
-	position:relative;
-	z-index:1;
-	border: none; 
-    background: none; 
-    padding: 0; 
-    position: absolute;
-	top: 0;  /* verplaatst naar boven */
-	left: 0;
-	margin: 3em;
 }
 
-header button img{
-	width: 6em;
-	height: 6em;
+header > ul img {
+	width: 2em;
 }
 
-button :focus{
-	outline: none;
-}
-
-header nav.open,
-header nav:focus-within {
-	translate:0 0;
-}
-
-header > button:first-of-type {
-	/* POSITIONERING HAMBURGERMENU BUTTON */
-	display:grid;
-	grid-template-columns:min-content min-content;
-	grid-gap:.25em;
-	align-items:center;
-	font-weight:bold; 
-  }
-
-
-/* EIND BUTTON HAMBURGERMENU */
-
+/* HEADER UL EIND */
+/* NAV */
 header nav {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+
+}
+
+header nav section:first-of-type {
 	position:fixed;
 	inset:0;
 	padding-top:2em;
@@ -127,127 +59,53 @@ header nav {
 	translate:-100% 0;
 	transition:.5s;
 }
-/* EIND HAMBURGERMENU */
 
-/* BEGIN 2E MENU IN HEADER */
-header nav:nth-of-type(2) ul {
+header nav section:first-of-type.open {
+	translate:0 0;
+}
+
+header nav section:nth-of-type(2) {
+	order: 1;
+}
+/* NAV EIND */
+
+/* MAIN */
+main section:first-of-type li {
+	width: 95%;
+
+	background-color: yellow;
+
+	margin-top: 1em;
+
 	display: flex;
-	gap:20em;
-	justify-content: space-between;
+	flex-direction: column;
 }
 
-header img{
-width:80px;
-height: auto;
+main section:first-of-type li h2, main section:first-of-type li h3, main section:first-of-type li a {
+	text-align: center;
 }
 
+main section:first-of-type li img {
+	width: 100%;
 
-/* EIND 2E MENU IN HEADER */
-
-/* EIND HEADER */
-
-main a {
-padding: 1em;
-background-color: white;
-border-color: rainbow;
-border-radius: 50%;
-box-flex: wrap;
-border: none;
+	order: -1;
 }
 
-/* eerste ronde image: pixel to em converter gebruikt https://www.w3schools.com/tags/ref_pxtoemconversion.asp */
-/* To target the image directly within the main element (outside the ul li) */
-main > img:nth-of-type(1) {
-    width: 28.708125em;
-    height: 28.708125em;
-    border-radius: 50%; /* Applies only to the first direct child image of main */
-}
+/* MAIN EIND */
+/* HEADER EIND */
+/*  */
 
 
-/* 1E SECTION */
-/* ALGEMEEN 1E SECTION  */
-main section:nth-of-type(1) {
-    display: flex;
-    align-items: flex-start; /* alle items naar begin flex container */
-    flex-direction: column;
-}
 
-main section:nth-of-type(1) img {
-	width:355.33px;
-	height: 284.26px;
-}
 
-main section:nth-of-type(1) ul li {
-    position: relative;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5%;
-}
-/* POSITIE PLAATJE BOVEN */
 
-  /* POSITIE PLAATJE ONDER */
- 
-/* ALGEMEEN 1E SECTION SLUIT */
 
-/* MAIN 1E SECTION SPECIFICS */
 
-/* 1E */
-main section:nth-of-type(1) ul li:nth-of-type(1) {
-	background-color:#ffc9e0;	
-padding-right: 1.5rem;
-	margin-left: -0.75rem;
-	margin-right: auto;
-  }
-  main section:nth-of-type(1) ul li:nth-child(1) img:nth-of-type(1) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
 
-main section:nth-of-type(1) ul li:nth-child(1) img:nth-of-type(2) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
-/* 1E EIND */
 
-/* 2E */
-  main section:nth-of-type(1) ul:nth-of-type(1) li:nth-of-type(2) {
-	background-color: blue;
-	margin-left: auto;
-	margin-right: 0;
-  }
-  main section ul li:nth-child(2) img:nth-of-type(1) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
 
-main section ul li:nth-child(2) img:nth-of-type(2) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
-/* 2E EIND */
 
-/* 3E */
-  main section:nth-of-type(1) ul li:nth-child(3) {
-	background-color: red;
-	margin-left: 0;
-	margin-right: auto;
-  }
-  main section ul li:nth-child(3) img:nth-of-type(1) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
 
-main section ul li:nth-child(3) img:nth-of-type(2) {
-    position: absolute;
-    left: 1rem;
-    top: -1rem;
-}
 /* 3E EIND */
 /* 1E SECTION EIND  */
 
