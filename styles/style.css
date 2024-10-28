@@ -97,19 +97,8 @@ header{
 	grid-template-columns: 50% 50%;
 	font-family: "fontsans";
 }
-/* header{
-	min-height:4em;
-	padding:0 1em;
-	line-height:1;
-	background-color: white;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content:space-between;
-	align-items:center;
-	position:sticky;
-	top:0;
 
-} */
+ 
 header a {
 	padding:.5em 0;
 	color:var(--general-color);
@@ -130,56 +119,28 @@ header button {
 	margin: 3em;
 }
 
-/* header button img{
+header button img{
 	width: 6em;
 	height: 6em;
-} */
+}
 
-/* button :focus{
+button :focus{
 	outline: none;
-} */
+}
 
-/* header nav.open,
+header nav.open,
 header nav:focus-within {
 	translate:0 0;
-} */
+}
 
-/* header > button:first-of-type {
+header > button:first-of-type {
 	
 	display:grid;
 	grid-template-columns:min-content min-content;
 	grid-gap:.25em;
 	align-items:center;
 	font-weight:bold; 
-  } */
-
-
-/* EIND BUTTON HAMBURGERMENU */
-
-/* header nav {
-	position:fixed;
-	inset:0;
-	padding-top:2em;
-	background-color:lightyellow;
-	translate:-100% 0;
-	transition:.5s;
-} */
-/* EIND HAMBURGERMENU */
-
-/* BEGIN 2E MENU IN HEADER */
-/* header nav:nth-of-type(2) ul {
-	display: flex;
-	gap:20em;
-	justify-content: space-between;
-} */
-
-/* header img{
-width:80px;
-height: auto;
-} */
-
-
-/* EIND 2E MENU IN HEADER */
+  }
 
 /* EIND HEADER */
 
@@ -197,7 +158,7 @@ border: none;
 main > img:nth-of-type(1) {
     width: 28.708125em;
     height: 28.708125em;
-    border-radius: 50%; /* Applies only to the first direct child image of main */
+    border-radius: 50%;
 }
 
 /* main lijst met 4 list items  */
