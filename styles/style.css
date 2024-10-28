@@ -147,7 +147,7 @@ height: auto;
 
 /* EIND HEADER */
 
-main section:nth-of-type(1) a{
+main a {
 padding: 1em;
 background-color: white;
 border-color: rainbow;
@@ -167,9 +167,6 @@ main > img:nth-of-type(1) {
 
 /* 1E SECTION */
 /* ALGEMEEN 1E SECTION  */
-main image{
-	width: 100%;
-}
 main section:nth-of-type(1) {
     display: flex;
     align-items: flex-start; /* alle items naar begin flex container */
@@ -179,7 +176,6 @@ main section:nth-of-type(1) {
 main section:nth-of-type(1) img {
 	width:355.33px;
 	height: 284.26px;
-	align-items: center;
 }
 
 main section ul li {
@@ -192,41 +188,27 @@ main section ul li {
     border-radius: 5%;
 }
 /* POSITIE PLAATJE BOVEN */
-  /* main section ul li:nth-child(1) img:nth-child(1){
-	position:absolute;
-	left:1rem;
-	top:-1rem;
-  } 
 
   /* POSITIE PLAATJE ONDER */
-  /* main section ul li img{
-	position:absolute;
-	left:1rem;
-	top:-1rem;
-  } */
-
-    /* main section ul li img{
-	width: 500px;
-  } */
-
+ 
 /* ALGEMEEN 1E SECTION SLUIT */
 
 /* MAIN 1E SECTION SPECIFICS */
 
 /* 1E */
-main section ul li:nth-child(1) {
+main section:nth-of-type(1) ul li:nth-of-type(1) {
 	background-color:#ffc9e0;	
 padding-right: 1.5rem;
 	margin-left: -0.75rem;
 	margin-right: auto;
   }
-  main section ul li:nth-child(1) img:nth-of-type(1) {
+  main section:nth-of-type(1) ul li:nth-child(1) img:nth-of-type(1) {
     position: absolute;
     left: 1rem;
     top: -1rem;
 }
 
-main section ul li:nth-child(1) img:nth-of-type(2) {
+main section:nth-of-type(1) ul li:nth-child(1) img:nth-of-type(2) {
     position: absolute;
     left: 1rem;
     top: -1rem;
@@ -234,7 +216,7 @@ main section ul li:nth-child(1) img:nth-of-type(2) {
 /* 1E EIND */
 
 /* 2E */
-  main section ul li:nth-child(2) {
+  main section:nth-of-type(1) ul:nth-of-type(1) li:nth-of-type(2) {
 	background-color: blue;
 	margin-left: auto;
 	margin-right: 0;
@@ -253,7 +235,7 @@ main section ul li:nth-child(2) img:nth-of-type(2) {
 /* 2E EIND */
 
 /* 3E */
-  main section ul li:nth-child(3) {
+  main section:nth-of-type(1) ul li:nth-child(3) {
 	background-color: red;
 	margin-left: 0;
 	margin-right: auto;
