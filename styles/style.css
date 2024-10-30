@@ -30,6 +30,7 @@ ul{
 /* JOUW STYLING */
 /****************/
 header {
+	width: 100%;
 	display: grid;
 	grid-template-columns:33% 33% 33%;
 	gap: 10px;
@@ -72,6 +73,13 @@ header > ul img {
 	width: 2em;
 }
 
+
+
+
+/* MAIN */
+main{
+	background-color: palegoldenrod;
+}
 /* 1E SECTION IN DE MAIN */
 main section:first-of-type li {
 	width: 95%;
