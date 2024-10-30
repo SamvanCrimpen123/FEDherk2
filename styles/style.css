@@ -22,18 +22,47 @@
 	--color-background:#eee;
 	--color-titels:brown;
 }
-
+ul{
+	list-style: none;
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
-/* HEADER */
 header {
-	width: 100%;
-}
-/* HEADER EIND */
+	display: grid;
+	grid-template-columns:33% 33% 33%;
+	gap: 10px;
+	background-color:white;
+  }
 
-/* HEADER UL */
+  header button:nth-of-type(1) {
+	background-color: transparent;
+	border: none;
+	z-index: 1000;
+	position: fixed;
+  }
+
+  /* ONZICHTBAAR MENU IN DE NAV */
+  header nav section:first-of-type {
+	position:fixed;
+	inset:0;
+	padding-top:2em;
+	overflow: scroll;
+	transition: transform 0.3s ease;
+	translate:-100% 0;
+	transition:.5s;
+	background-color:lightyellow;
+  }
+
+  header nav section:first-of-type.open {
+	translate:0 0;
+  }
+  
+  header nav section:nth-of-type(2) {
+	order: 1;
+}
+
 header > ul {
 	display: grid;
 	grid-template-columns: 50% 50%;
@@ -43,37 +72,10 @@ header > ul img {
 	width: 2em;
 }
 
-/* HEADER UL EIND */
-/* NAV */
-header nav {
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-
-}
-
-header nav section:first-of-type {
-	position:fixed;
-	inset:0;
-	padding-top:2em;
-	background-color:lightyellow;
-	translate:-100% 0;
-	transition:.5s;
-}
-
-header nav section:first-of-type.open {
-	translate:0 0;
-}
-
-header nav section:nth-of-type(2) {
-	order: 1;
-}
-/* NAV EIND */
-
-/* MAIN */
+/* 1E SECTION IN DE MAIN */
 main section:first-of-type li {
 	width: 95%;
-
-	background-color: yellow;
+	border-radius: 1em;
 
 	margin-top: 1em;
 
@@ -91,44 +93,18 @@ main section:first-of-type li img {
 	order: -1;
 }
 
-/* MAIN EIND */
-/* HEADER EIND */
-/*  */
+main section:first-of-type li:first-of-type{
+	background-color: pink;
+	border-radius: 1em;
+	padding-right: 1.5rem;
+    margin-left: -0.75rem;
+}
+main section:first-of-type li:nth-of-type(2){
+	background-color: blue;
+}
 
+main section:first-of-type li:nth-of-type(3){
+	background-color: red;
+}
 
-
-
-
-
-
-
-
-
-
-
-/* 3E EIND */
-/* 1E SECTION EIND  */
-
-
-  /* bewegende ul li */
-
-  /* bewegende ul li eind*/
-
-  main section li img {
-	width: 100%;
-  }
- /* display inline block(?) */
-
- main section:nth-of-type(2){
-	background-color: yellow;
- }
-
- /* DEZE WERKT NIET */
- /* main section :nth-of-type(3){
-	background-color: gray;
- } */
-
- /* DEZE WERKT NIET */
- /* main section :nth-of-type(4){
-	background-color: white;
- } */
+/* 1E SECTION IN DE MAIN */
