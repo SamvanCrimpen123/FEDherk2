@@ -79,7 +79,54 @@ header > ul img {
 /* MAIN */
 main{
 	background-color: palegoldenrod;
+	align-items: center;
 }
+
+/* 1E TWEE ZINNEN */
+/* https://www.w3schools.com/cssref/pr_text_text-align.php */
+main h1{
+	text-align: left;
+}
+main h2 {
+	text-align: left;
+}
+/* EIND 1E TWEE ZINNEN */
+
+/* EERSTE TWEE BUTTONS IN DE MAIN, 2LI'S IN EEN UL AANSPREKEN*/
+/* door > te gebruiken spreek ik alleen het directe eerste kind in main aan. hierdoor worden alle andere ul niet aangesproken (dit gebeurde zonder > wel) */
+main>ul:first-of-type{
+	list-style: none;
+	padding: 0;
+	margin-top: 2rem;
+}
+
+main>ul:first-of-type li{
+	border:0.125rem solid brown;
+	background-color: transparent;
+	padding: 3em 2em;
+	border-radius: 999rem;
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: 1rem;
+}
+
+main>ul:first-of-type li a{
+	text-decoration: none;   /* zo krijg je geen streepje onder de link */
+	color: brown;
+	font-weight: bold;
+	display: block; /* zo is het hele gebied klikbaar */
+}
+
+main>ul:first-of-type li:first-of-type{
+	display: flex;
+	background-color: white;
+	justify-content: center;
+}
+
+main>ul:first-of-type li img{
+	width: 2em;
+}
+
 /* 1E SECTION IN DE MAIN */
 main section:first-of-type li {
 	width: 95%;
