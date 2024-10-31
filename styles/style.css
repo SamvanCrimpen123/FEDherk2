@@ -127,6 +127,14 @@ main>ul:first-of-type li img{
 	width: 2em;
 }
 
+/* https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+main>img:first-of-type{
+	border-radius: 50%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+
 /* 1E SECTION IN DE MAIN */
 main section:first-of-type li {
 	width: 95%;
