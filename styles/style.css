@@ -79,7 +79,6 @@ header > ul img {
 /* MAIN */
 main{
 	background-color: palegoldenrod;
-	align-items: center;
 }
 
 /* 1E TWEE ZINNEN */
@@ -133,6 +132,7 @@ main>img:first-of-type{
 	max-width: 100%;
 	display: block;
 	margin: auto;
+	transform: translateX(10%);
 }
 
 /* 1E SECTION IN DE MAIN */
