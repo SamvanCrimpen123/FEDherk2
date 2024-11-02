@@ -21,6 +21,8 @@
 	--color-text:#111;
 	--color-background:#fef2b6;
 	--color-titels:brown;
+	--color-white:#FFFFFF;
+	--color-brown:#5b1f06;
 }
 ul{
 	list-style: none;
@@ -34,7 +36,7 @@ header {
 	display: grid;
 	grid-template-columns:33% 33% 33%;
 	gap: 10px;
-	background-color:white;
+	background-color:var(--color-white);
   }
 
   header button:nth-of-type(1) {
@@ -53,7 +55,7 @@ header {
 	transition: transform 0.3s ease;
 	translate:-100% 0;
 	transition:.5s;
-	background-color:lightyellow;
+	background-color:var(--color-white);
   }
 
   header nav section:first-of-type.open {
@@ -85,9 +87,14 @@ main{
 /* https://www.w3schools.com/cssref/pr_text_text-align.php */
 main h1{
 	text-align: left;
+	color: var(--color-brown);
 }
 main h2 {
 	text-align: left;
+	color: var(--color-brown);
+}
+main h3{
+	color: var(--color-brown);
 }
 /* EIND 1E TWEE ZINNEN */
 
@@ -100,7 +107,7 @@ main>ul:first-of-type{
 }
 
 main>ul:first-of-type li{
-	border:0.125rem solid brown;
+	border:0.125rem solid var(--color-brown);
 	background-color: transparent;
 	padding: 3em 2em;
 	border-radius: 999rem;
@@ -111,7 +118,7 @@ main>ul:first-of-type li{
 
 main>ul:first-of-type li a{
 	text-decoration: none;   /* zo krijg je geen streepje onder de link */
-	color: brown;
+	color: var(--color-brown);
 	font-weight: bold;
 	display: block; /* zo is het hele gebied klikbaar */
 }
@@ -136,10 +143,13 @@ main>img:first-of-type{
 }
 
 /* 1E SECTION IN DE MAIN */
+
 main section:first-of-type ul{
-display: flex;
-flex-wrap: wrap;
+display: block;
 justify-content: space-between;
+}
+main section:first-of-type h2 h3{
+color: var(--color-white);
 }
 
 main section:first-of-type li {
@@ -167,7 +177,7 @@ main section:first-of-type li:first-of-type{
 }
 main section:first-of-type li:nth-of-type(2){
 	background-color: #0e74e2;
-	margin-right: 0;
+	margin-left: auto;
 }
 
 main section:first-of-type li:nth-of-type(3){
