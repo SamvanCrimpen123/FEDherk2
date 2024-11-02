@@ -19,7 +19,7 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#fef2b6;
 	--color-titels:brown;
 }
 ul{
@@ -78,7 +78,7 @@ header > ul img {
 
 /* MAIN */
 main{
-	background-color: palegoldenrod;
+	background-color: var(--color-background);
 }
 
 /* 1E TWEE ZINNEN */
@@ -136,14 +136,20 @@ main>img:first-of-type{
 }
 
 /* 1E SECTION IN DE MAIN */
+main section:first-of-type ul{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
 main section:first-of-type li {
-	width: 95%;
+	width: 100%;
 	border-radius: 1em;
-
-	margin-top: 1em;
-
+	margin-top: 5em;
+	margin-bottom: 5em;
 	display: flex;
 	flex-direction: column;
+	padding: 1.5em;
 }
 
 main section:first-of-type li h2, main section:first-of-type li h3, main section:first-of-type li a {
@@ -152,22 +158,36 @@ main section:first-of-type li h2, main section:first-of-type li h3, main section
 
 main section:first-of-type li img {
 	width: 100%;
-
 	order: -1;
 }
 
 main section:first-of-type li:first-of-type{
-	background-color: pink;
-	border-radius: 1em;
-	padding-right: 1.5rem;
-    margin-left: -0.75rem;
+	background-color: #FFABCF;
+	margin-left: 0;
 }
 main section:first-of-type li:nth-of-type(2){
-	background-color: blue;
+	background-color: #0e74e2;
+	margin-right: 0;
 }
 
 main section:first-of-type li:nth-of-type(3){
-	background-color: red;
+	background-color: #d70100;
+	margin-left: 0;
 }
+
+#position-left{
+	position: relative;
+}
+
+#position-left img:first-of-type{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	transform:translate(-25%,-50%);
+	z-index: 1;
+}
+
 
 /* 1E SECTION IN DE MAIN */
