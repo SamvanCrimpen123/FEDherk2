@@ -148,9 +148,6 @@ main section:first-of-type ul{
 display: block;
 justify-content: space-between;
 }
-main section:first-of-type h2 h3{
-color: var(--color-white);
-}
 
 main section:first-of-type li {
 	width: 100%;
@@ -174,6 +171,7 @@ main section:first-of-type li img {
 main section:first-of-type li:first-of-type{
 	background-color: #FFABCF;
 	margin-left: 0;
+	
 }
 main section:first-of-type li:nth-of-type(2){
 	background-color: #0e74e2;
