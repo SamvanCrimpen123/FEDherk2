@@ -125,6 +125,9 @@ main>ul:first-of-type li a{
 	font-weight: bold;
 	/* fontfamily toevoegen */
 	display: block; /* zo is het hele gebied klikbaar */
+	margin-left: 1em;
+	margin-right: 1em;
+
 }
 
 main>ul:first-of-type li:first-of-type{
@@ -227,6 +230,8 @@ main section:nth-of-type(2) a {
 	font-size: 1rem;
 	color: var(--color-brown);
 	font-weight: bold;
+	margin-left: 1em;
+	margin-right: 1em;
 }
 
 
@@ -234,7 +239,8 @@ main section:nth-of-type(2) a {
 /* kleuren hele section */
 main section:nth-of-type(2){
 	background-color: var(--color-yellow);
-	border-radius: 10rem 10rem 0 0 ;
+	border-top-left-radius: 20em;
+	border-top-right-radius: 20em;
 	overflow: hidden;
 }
 
@@ -251,6 +257,7 @@ main section:nth-of-type(3) img:nth-of-type(2){
 	border-top-left-radius: 20em;
 	border-top-right-radius: 20em;
 	border: 0.20rem solid var(--color-blue);
+	
 }
 
 
@@ -267,4 +274,16 @@ main section:nth-of-type(3) img:nth-of-type(2){
 	width: 40%;
 	transform:translate(-25%,-50%);
 	z-index: 1;
+}
+/* HOE KRIJG IK DE IMAGES EN DE TEKST NOU WEER HORIZONTAAL EN DE 1E IMAGE RECHTSBOVEN EN DE UL IMG'S LOS DAARVAN */
+main section:nth-of-type(3) ul img{
+display: flex;
+width: 100%;
+height: auto;
+}
+
+main section:nth-of-type(4) ul{
+display: flex;
+justify-content: center;
+align-items: center;
 }
