@@ -24,6 +24,8 @@
 	--color-white:#FFFFFF;
 	--color-brown:#5b1f06;
 	--color-yellow:#ffd200;
+	--color-lightgrey:#f3f6fb;
+	--color-blue:#0e74e2;
 }
 ul{
 	list-style: none;
@@ -163,6 +165,7 @@ main section:first-of-type li {
 
 main section:first-of-type li h2, main section:first-of-type li h3, main section:first-of-type li a {
 	text-align: center;
+	text-decoration: none;
 }
 
 main section:first-of-type li img {
@@ -212,13 +215,8 @@ main > ul :nth-of-type(3){
 
 
 /* 2E SECTION IN DE MAIN */
-main section:nth-of-type(2){
-	background-color: var(--color-yellow);
-	border-radius: 10rem 10rem 0 0 ;
-	overflow: hidden;
-}
 
-
+/* BUTTON DECORATIE */
 main section:nth-of-type(2) a {
 	text-decoration: none;   /* zo krijg je geen streepje onder de link */
 	display: block; /* zo is het hele gebied klikbaar */
@@ -229,6 +227,44 @@ main section:nth-of-type(2) a {
 	font-size: 1rem;
 	color: var(--color-brown);
 	font-weight: bold;
-	/* fontfamily toevoegen */
 }
 
+
+
+/* kleuren hele section */
+main section:nth-of-type(2){
+	background-color: var(--color-yellow);
+	border-radius: 10rem 10rem 0 0 ;
+	overflow: hidden;
+}
+
+/* 2E SECTION MAIN EIND */
+
+/* 3E SECTION MAIN */
+main section:nth-of-type(3){
+background-color: var(--color-white);
+}
+
+main section:nth-of-type(3) img:nth-of-type(2){
+	width: 100%;
+	height: auto; 
+	border-top-left-radius: 20em;
+	border-top-right-radius: 20em;
+	border: 0.20rem solid var(--color-blue);
+}
+
+
+/* IK KRIJG M NIET WEG VAN LINKS */
+#position-right{
+	position: relative;
+}
+
+#position-right img:first-of-type{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 40%;
+	transform:translate(-25%,-50%);
+	z-index: 1;
+}
