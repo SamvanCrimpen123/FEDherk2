@@ -23,6 +23,7 @@
 	--color-titels:brown;
 	--color-white:#FFFFFF;
 	--color-brown:#5b1f06;
+	--color-yellow:#ffd200;
 }
 ul{
 	list-style: none;
@@ -109,7 +110,7 @@ main>ul:first-of-type{
 main>ul:first-of-type li{
 	border:0.125rem solid var(--color-brown);
 	background-color: transparent;
-	padding: 3em 2em;
+	padding: 1em;
 	border-radius: 999rem;
 	margin-bottom: 2em;
 	text-align: center;
@@ -120,6 +121,7 @@ main>ul:first-of-type li a{
 	text-decoration: none;   /* zo krijg je geen streepje onder de link */
 	color: var(--color-brown);
 	font-weight: bold;
+	/* fontfamily toevoegen */
 	display: block; /* zo is het hele gebied klikbaar */
 }
 
@@ -171,7 +173,7 @@ main section:first-of-type li img {
 main section:first-of-type li:first-of-type{
 	background-color: #FFABCF;
 	margin-left: 0;
-	
+
 }
 main section:first-of-type li:nth-of-type(2){
 	background-color: #0e74e2;
@@ -199,3 +201,34 @@ main section:first-of-type li:nth-of-type(3){
 
 
 /* 1E SECTION IN DE MAIN */
+
+/* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
+main > ul :nth-of-type(3){
+	display:flex;
+	color: green;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* 2E SECTION IN DE MAIN */
+main section:nth-of-type(2){
+	background-color: var(--color-yellow);
+	border-radius: 10rem 10rem 0 0 ;
+	overflow: hidden;
+}
+
+
+main section:nth-of-type(2) a {
+	text-decoration: none;   /* zo krijg je geen streepje onder de link */
+	display: block; /* zo is het hele gebied klikbaar */
+	background-color: white;
+	padding: 1em;
+	border-radius: 999rem;
+	text-align: center;
+	font-size: 1rem;
+	color: var(--color-brown);
+	font-weight: bold;
+	/* fontfamily toevoegen */
+}
+
