@@ -13,6 +13,11 @@
   box-sizing:border-box;  
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
@@ -36,9 +41,6 @@ ul{
 /****************/
 header {
 	width: 100%;
-	display: grid;
-	grid-template-columns:33% 33% 33%;
-	gap: 10px;
 	background-color:var(--color-white);
   }
 
@@ -49,9 +51,16 @@ header {
 	position: fixed;
   }
 
+
+  /* HIER KLOTEN MET GRID  */
+  header nav{
+	display:grid;
+	grid-template-columns: 33% 33% 33%;
+  }
+
   /* ONZICHTBAAR MENU IN DE NAV */
   header nav section:first-of-type {
-	position:fixed;
+	position:absolute;
 	inset:0;
 	padding-top:2em;
 	overflow: scroll;
@@ -77,6 +86,7 @@ header > ul {
 header > ul img {
 	width: 2em;
 }
+
 
 
 
@@ -152,7 +162,7 @@ main>img:first-of-type{
 /* 1E SECTION IN DE MAIN */
 
 main section:first-of-type ul{
-display: block;
+/* display: block; */
 justify-content: space-between;
 }
 
@@ -166,34 +176,36 @@ main section:first-of-type li {
 	padding: 1.5em;
 }
 
-main section:first-of-type li h2, main section:first-of-type li h3, main section:first-of-type li a {
+main section:nth-of-type(1) li h2, main section:first-of-type li h3, main section:first-of-type li a {
 	text-align: center;
 	text-decoration: none;
 }
 
-main section:first-of-type li img {
+main section:nth-of-type(1) li img {
 	width: 100%;
 	order: -1;
 }
 
-main section:first-of-type li:first-of-type{
+main section:nth-of-type(1) li:nth-of-type(1){
 	background-color: #FFABCF;
-	margin-left: 0;
+	margin-right: -3em;
 
 }
-main section:first-of-type li:nth-of-type(2){
+main section:nth-of-type(1) li:nth-of-type(2){
 	background-color: #0e74e2;
-	margin-left: auto;
 }
 
-main section:first-of-type li:nth-of-type(3){
+main section:nth-of-type(1) li:nth-of-type(3){
 	background-color: #d70100;
-	margin-left: 0;
+	margin-right: -3em;
 }
 
-#position-left{
+
+
+/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
+/* #position-left{
 	position: relative;
-}
+} */
 
 #position-left img:first-of-type{
 	display: block;
@@ -204,7 +216,7 @@ main section:first-of-type li:nth-of-type(3){
 	transform:translate(-25%,-50%);
 	z-index: 1;
 }
-
+/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
 
 /* 1E SECTION IN DE MAIN */
 
