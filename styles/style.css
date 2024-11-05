@@ -53,10 +53,23 @@ header {
 
 
   /* HIER KLOTEN MET GRID  */
-  header nav{
+  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
+  header{
 	display:grid;
-	grid-template-columns: 33% 33% 33%;
+	grid-template-columns: .5fr .5fr .5fr; 
+	grid-template-rows:.5fr .5fr ;
+	grid-template-areas:
+	"navigatie logo icons"
+	"ontwerp witruimte mix"
+	;
   }
+  nav button{
+	grid-area: navigatie;
+  }
+ header img{
+	grid-area:logo;
+ }
+
 
   /* ONZICHTBAAR MENU IN DE NAV */
   header nav section:first-of-type {
@@ -203,9 +216,9 @@ main section:nth-of-type(1) li:nth-of-type(3){
 
 
 /* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
-/* #position-left{
+#position-left{
 	position: relative;
-} */
+}
 
 #position-left img:first-of-type{
 	display: block;
