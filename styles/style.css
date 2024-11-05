@@ -64,10 +64,18 @@ header {
 	;
   }
   nav button{
-	grid-area: navigatie;
+	grid-area:navigatie;
   }
  header img{
 	grid-area:logo;
+ }
+
+ header section:nth-of-type(2){
+	grid-area:icons;
+ }
+
+ header ul :last-of-type{
+	grid-area:ontwerp;
  }
 
 
@@ -130,6 +138,8 @@ main>ul:first-of-type{
 	list-style: none;
 	padding: 0;
 	margin-top: 2rem;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 }
 
 main>ul:first-of-type li{
@@ -255,8 +265,8 @@ main section:nth-of-type(2) a {
 	font-size: 1rem;
 	color: var(--color-brown);
 	font-weight: bold;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 }
 
 
