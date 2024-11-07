@@ -1,0 +1,211 @@
+
+/* MAIN */
+main{
+	background-color: var(--color-background);
+}
+
+/* 1E TWEE ZINNEN */
+/* https://www.w3schools.com/cssref/pr_text_text-align.php */
+main h1{
+	text-align: left;
+	color: var(--color-brown);
+}
+main h2 {
+	text-align: left;
+	color: var(--color-brown);
+}
+main h3{
+	color: var(--color-brown);
+}
+/* EIND 1E TWEE ZINNEN */
+
+/* EERSTE TWEE BUTTONS IN DE MAIN, 2LI'S IN EEN UL AANSPREKEN*/
+/* door > te gebruiken spreek ik alleen het directe eerste kind in main aan. hierdoor worden alle andere ul niet aangesproken (dit gebeurde zonder > wel) */
+main>ul:first-of-type{
+	list-style: none;
+	padding: 0;
+	margin-top: 2rem;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+main>ul:first-of-type li{
+	border:0.125rem solid var(--color-brown);
+	background-color: transparent;
+	padding: 1em;
+	border-radius: 999rem;
+	margin-bottom: 2em;
+	text-align: center;
+	font-size: 1rem;
+}
+
+main>ul:first-of-type li a{
+	text-decoration: none;   /* zo krijg je geen streepje onder de link */
+	color: var(--color-brown);
+	font-weight: bold;
+	/* fontfamily toevoegen */
+	display: block; /* zo is het hele gebied klikbaar */
+	margin-left: 1em;
+	margin-right: 1em;
+
+}
+
+main>ul:first-of-type li:first-of-type{
+	display: flex;
+	background-color: white;
+	justify-content: center;
+}
+
+main>ul:first-of-type li img{
+	width: 2em;
+}
+
+/* https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+main>img:first-of-type{
+	border-radius: 50%;
+	max-width: 100%;
+	display: block;
+	margin: auto;
+	transform: translateX(10%);
+}
+
+/* 1E SECTION IN DE MAIN */
+
+main section:first-of-type ul{
+/* display: block; */
+justify-content: space-between;
+}
+
+main section:first-of-type li {
+	width: 100%;
+	border-radius: 1em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em;
+}
+
+main section:nth-of-type(1) li h2, main section:first-of-type li h3, main section:first-of-type li a {
+	text-align: center;
+	text-decoration: none;
+}
+
+main section:nth-of-type(1) li img {
+	width: 100%;
+	order: -1;
+}
+
+main section:nth-of-type(1) li:nth-of-type(1){
+	background-color: #FFABCF;
+	margin-right: -3em;
+
+}
+main section:nth-of-type(1) li:nth-of-type(2){
+	background-color: #0e74e2;
+}
+
+main section:nth-of-type(1) li:nth-of-type(3){
+	background-color: #d70100;
+	margin-right: -3em;
+}
+
+
+
+/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
+#position-left{
+	position: relative;
+}
+
+#position-left img:first-of-type{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	transform:translate(-25%,-50%);
+	z-index: 1;
+}
+/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
+
+/* 1E SECTION IN DE MAIN */
+
+/* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
+main > ul :nth-of-type(3){
+	display:flex;
+	color: green;
+	font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* 2E SECTION IN DE MAIN */
+
+/* BUTTON DECORATIE */
+main section:nth-of-type(2) a {
+	text-decoration: none;   /* zo krijg je geen streepje onder de link */
+	display: block; /* zo is het hele gebied klikbaar */
+	background-color: white;
+	padding: 1em;
+	border-radius: 999rem;
+	text-align: center;
+	font-size: 1rem;
+	color: var(--color-brown);
+	font-weight: bold;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+}
+
+
+
+/* kleuren hele section */
+main section:nth-of-type(2){
+	background-color: var(--color-yellow);
+	border-top-left-radius: 20em;
+	border-top-right-radius: 20em;
+	overflow: hidden;
+}
+
+/* 2E SECTION MAIN EIND */
+
+/* 3E SECTION MAIN */
+main section:nth-of-type(3){
+background-color: var(--color-white);
+}
+
+main section:nth-of-type(3) img:nth-of-type(2){
+	width: 100%;
+	height: auto; 
+	border-top-left-radius: 20em;
+	border-top-right-radius: 20em;
+	border: 0.20rem solid var(--color-blue);
+	
+}
+
+
+/* IK KRIJG M NIET WEG VAN LINKS */
+#position-right{
+	position: relative;
+}
+
+#position-right img:first-of-type{
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 40%;
+	transform:translate(-25%,-50%);
+	z-index: 1;
+}
+/* HOE KRIJG IK DE IMAGES EN DE TEKST NOU WEER HORIZONTAAL EN DE 1E IMAGE RECHTSBOVEN EN DE UL IMG'S LOS DAARVAN */
+main section:nth-of-type(3) ul img{
+display: flex;
+width: 100%;
+height: auto;
+}
+
+main section:nth-of-type(4) ul{
+display: flex;
+justify-content: center;
+align-items: center;
+}
