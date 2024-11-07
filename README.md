@@ -237,7 +237,11 @@ mdn is altijd up to date voor html dingen!
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Eigenlijk heb ik in een hele korte tijd een heleboel uitgevogeld. ik snap er nog steeds niet megaveel van, maar ik ben in ieder geval trots op hoe ver ik tot nu toe ben gekomen. ik heb geleerd hoe ik dingen beter kan opzoeken, en om door te zetten als iets niet meteen lukt. 
+  ik had vorig jaar een irrationele angst voor het vak opgebouwd, naast dat ik niet lekker in mijn vel zat en daardoor geen energie in het vak kon steken.
+  dit jaar deed ik dit vak tegelijk met mijn minor, wat ook veel energie kostte. 
+  uiteindelijk heb ik in de vakantie voor de deadline heel veel wek kunnen verzetten en heb ik er veel uren ingestopt, hier ben ik ook trots op.
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
@@ -261,8 +265,8 @@ mdn is altijd up to date voor html dingen!
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
-
+  1. Laura en Diya
+  2. https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
+  3. https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius
+  4. 
 </details>

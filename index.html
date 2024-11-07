@@ -117,21 +117,21 @@
 	<section>
 		<ul>
 			<!-- flexbox gebruiken en width alles 100% maken van items erin  -->
-			<li id="position-left">
+			<li>
 				<h2>bruiloft</h2>
 				<h3>kleine traktaties voor de grote dag</h3>
 				<a href="tweedepag.html">shop nu!</a><!--hier moet link naar tweede pag-->
 				<img src="images/ringen.png" alt="getekende ringen">
 				<img src="./images/wedding.jpeg" alt="de bruid en de bruidengom vormen met hun handen een hartje, waarin een m&m gevuld ornament te zien is">
 			</li>
-			<li id="position-left">
+			<li>
 				<h2>Personaliseerbare Elegante verpakking</h2>
 				<h3>Geef je cadeau een echte persoonlijke touch</h3>
 				<a href="tweedepag.html">shop nu!</a><!--hier moet link naar tweede pag-->
 				<img src="images/hartjeshanden.png" alt="">
 				<img src="images/birthdaybox.png"  alt="een verjaardagsbox, opgemaakt met een foto van een glimlachende persoon op de voorkant. de doos is open gepositioneerd, er in ligt een zakje kleurrijk versierde m&m's ">
 			</li>
-			<li id="position-left">
+			<li>
 				<h3>Disneyland® Paris</h3>
 				<h2>Win een Marvel adventure in Disneyland® Paris</h2>
 				<a href="tweedepag.html">ontdek nu meer!</a><!--hier moet link naar tweede pag-->
@@ -143,12 +143,30 @@
 
 	<ul>
 		<li><p>wensen</p></li>
+		<li><p>&</p></li>
 		<li><p>famillie</p></li>
+		<li><p>&</p></li>
 		<li><p>vrienden</p></li>
+		<li><p>&</p></li>
 		<li><p>vieren</p></li>
+		<li><p>&</p></li>
 		<li><p>wensen</p></li>
 		<!--hier komt bewegende element met tekst-->
 	</ul>
+
+	<ul>
+		<li><p>wensen</p></li>
+		<li><p>&</p></li>
+		<li><p>famillie</p></li>
+		<li><p>&</p></li>
+		<li><p>vrienden</p></li>
+		<li><p>&</p></li>
+		<li><p>vieren</p></li>
+		<li><p>&</p></li>
+		<li><p>wensen</p></li>
+		<!--hier komt bewegende element met tekst-->
+	</ul>
+
 
 	<section>
 		<h2>ons doel</h2>
@@ -157,32 +175,31 @@
 		<img src="images/missie.png" alt=" alle m&m's liggen in een cirkel op de grond, in verschillende posities passend bij hun karakter.">
 	</section>
 
-	<section id="position-right">
+	<section>
 		<img src="images/deeg.webp" alt="">
 		<img src="images/verjaardag.png" alt="">
 		<h2>maak van je grote dag een onvergetelijk moment</h2>
 		<p>laat ons je mooiste creaties afdrukken</p>
-		<a href="tweedepag.html">bekijk alle gelegenheden</a><!--hier moet link naar tweede pag-->
-		<!-- AANPAK CAROUSSEL: ZIE NOTITIES BOEKJE. UL LI EN UL IN LI (oeeeeh jij durft wel) -->
-		<ul><!--hier komt caroussel-->
+		<a href="tweedepag.html">bekijk alle gelegenheden</a>
+		<ul >
 			<li>
-				<img src="images/flesjes.png" alt="">
+				<a href="tweedepag.html"><img src="images/flesjes.png" alt=""></a>
 				<p>bruiloft</p>
 			</li>
 			<li>
-				<img src="images/birthdaybox.png" alt="">
+				<a href="tweedepag.html"><img src="images/birthdaybox.png" alt=""></a>
 				<p>verjaardag</p>
 			</li>
 			<li>
-				<img src="images/geboorte.png" alt="">
+				<a href="tweedepag.html"><img src="images/geboorte.png" alt=""></a>
 				<p>geboorte & doop</p>
 			</li>
 			<li>
-				<img src="images/communie.png" alt="">
+				<a href="tweedepag.html"><img src="images/communie.png" alt=""></a>
 				<p>communie</p>
 			</li>
 			<li>
-				<img src="images/liefde.png" alt="">
+				<a href="tweedepag.html"><img src="images/liefde.png" alt=""></a>
 				<p>liefde</p>
 			</li>
 		</ul>
@@ -192,9 +209,7 @@
 		<h2>jouw creaties voor je bruiloft</h2>
 		<p>stuur ons de creaties die jij voor je trouwdag hebt gemaakt, en wij delen ze met onze community</p>
 		<p>#bruiloft</p>
-		<!-- ul li van maken 
-		 https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius -->
-		 <!-- ongelijke radius top, gelijke volledig rond 1, 3 en 2,4 -->
+		<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius -->
 		  <ul>
 			<li><img src="images/regenboog.svg" alt=""></li>
 			<li><img src="images/flesgeschenk.jpeg" alt=""></li>
@@ -208,19 +223,21 @@
 
 	<section>
 		<h2>zij vertrouwen op ons</h2>
-		<img src="#" alt=""><!--recentie met sterren?-->
+		<img src="#" alt=""><!--recentie met sterren-->
 	</section>
 </main>
 
 <footer>
-	<img src="#" alt="">
-
-	<!-- wil je hier iets mee? -->
-	<ul></ul> 
+	<img src="images/allfor.webp" alt=""> 
 	<h2>word lid van de community voor alle acties en aanbiedingen</h2>
 	<!--invulveld form-->
+	<form>
+		<label for="naam">e-mailadres</label><br>
+		<input type="text" id="naam" name="naam"><br>
+	  </form>
 	<p>Door op de verzendknop te klikken bevestig je dat je ouder bent dan 16, dat je marketingcommunicatie van M&M’S en andere merken van Mars Wrigley wilt ontvangen op het opgegeven e-mailadres en dat je instemt met ons Privacybeleid.</p>
 	<a href="#">ik meld me aan</a>
+
 	<!--dropdown-->
 	<ul>
 		<li>
@@ -233,7 +250,6 @@
 		</li>
 	</ul>
 
-	<!-- wil je hier aparte li's vAN MAKEN? -->
 	<ul>
 		<li>
 			<p></p>

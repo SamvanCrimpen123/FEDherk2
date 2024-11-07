@@ -5,6 +5,11 @@
 	font-weight: 400;
   }
 
+  @font-face {
+	font-family: "header";
+	src: url("../font/AllTogetherSerif-WideBlk.woff2");
+	font-weight: 400;
+  }
 
 /**************/
 /* CSS REMEDY */
@@ -60,8 +65,7 @@ header {
 	grid-template-rows:.5fr .5fr ;
 	grid-template-areas:
 	"navigatie logo icons"
-	"ontwerp witruimte mix"
-	;
+	"ontwerp witruimte mix";
   }
   nav button{
 	grid-area:navigatie;
@@ -74,8 +78,12 @@ header {
 	grid-area:icons;
  }
 
- header ul :last-of-type{
+ header ul:last-of-type{
 	grid-area:ontwerp;
+ }
+
+ header ul:last-of-type li:nth-of-type(2){
+	grid-area: mix;
  }
 
 
@@ -89,6 +97,11 @@ header {
 	translate:-100% 0;
 	transition:.5s;
 	background-color:var(--color-white);
+	z-index: 300;
+  }
+
+  header nav section:first-of-type img{
+	width: 2.625em;
   }
 
   header nav section:first-of-type.open {
@@ -106,4 +119,10 @@ header > ul {
 
 header > ul img {
 	width: 2em;
+}
+
+footer> img:nth-of-type(1){
+	width: 97%;
+	background-color: var(--color-yellow);
+	padding: 3em;
 }

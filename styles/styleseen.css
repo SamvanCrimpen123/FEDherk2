@@ -1,3 +1,28 @@
+@font-face {
+	font-family: 'fontsans';
+	src: url("../font/AllTogetherSans-Regular.woff2");
+	font-weight: 400;
+  }
+
+  @font-face {
+	font-family: 'MIAUW';
+	src: url("../font/AllTogetherSerif-WideBlk.woff2");
+	font-weight: 400;
+  }
+
+
+  :root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#fef2b6;
+	--color-titels:brown;
+	--color-white:#FFFFFF;
+	--color-brown:#5b1f06;
+	--color-yellow:#ffd200;
+	--color-lightgrey:#f3f6fb;
+	--color-blue:#0e74e2;
+}
+
 
 /* MAIN */
 main{
@@ -9,6 +34,7 @@ main{
 main h1{
 	text-align: left;
 	color: var(--color-brown);
+
 }
 main h2 {
 	text-align: left;
@@ -40,9 +66,12 @@ main>ul:first-of-type li{
 }
 
 main>ul:first-of-type li a{
-	text-decoration: none;   /* zo krijg je geen streepje onder de link */
+	text-decoration: none;
 	color: var(--color-brown);
-	font-weight: bold;
+	font-family: 'MIAUW';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.25;
 	/* fontfamily toevoegen */
 	display: block; /* zo is het hele gebied klikbaar */
 	margin-left: 1em;
@@ -71,31 +100,10 @@ main>img:first-of-type{
 
 /* 1E SECTION IN DE MAIN */
 
-main section:first-of-type ul{
-/* display: block; */
-justify-content: space-between;
+main section:nth-of-type(1) ul li{
+	position: relative;
 }
-
-main section:first-of-type li {
-	width: 100%;
-	border-radius: 1em;
-	margin-top: 5em;
-	margin-bottom: 5em;
-	display: flex;
-	flex-direction: column;
-	padding: 1.5em;
-}
-
-main section:nth-of-type(1) li h2, main section:first-of-type li h3, main section:first-of-type li a {
-	text-align: center;
-	text-decoration: none;
-}
-
-main section:nth-of-type(1) li img {
-	width: 100%;
-	order: -1;
-}
-
+	
 main section:nth-of-type(1) li:nth-of-type(1){
 	background-color: #FFABCF;
 	margin-right: -3em;
@@ -110,31 +118,84 @@ main section:nth-of-type(1) li:nth-of-type(3){
 	margin-right: -3em;
 }
 
-
-
-/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
-#position-left{
-	position: relative;
-}
-
-#position-left img:first-of-type{
+main section:nth-of-type(1) ul li img:nth-of-type(1){
 	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 40%;
-	transform:translate(-25%,-50%);
-	z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    transform:translate(-25%,-50%);
+    z-index: 1;
+
 }
-/* GEEN IDS HAAL ZE ER UIT PANIEK RAA RAA RAA */
+
+main section:first-of-type ul{
+	/* display: block; */
+	justify-content: space-between;
+	}
+	
+	main section:nth-of-type(1) li:nth-of-type(1),
+	main section:nth-of-type(1) li:nth-of-type(3){
+		width: 100%;
+		border-radius: 1em;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		margin-left: -2.5em;
+		display: flex;
+		flex-direction: column;
+		padding: 1.5em;
+	}
+
+	main section:nth-of-type(1) li:nth-of-type(2){
+		width: 100%;
+		border-radius: 1em;
+		margin-top: 5em;
+		margin-bottom: 5em;
+		display: flex;
+		flex-direction: column;
+		padding: 1.5em;
+	}
+	
+	main section:nth-of-type(1) li h2, 
+	main section:first-of-type li h3, 
+	main section:first-of-type li a {
+		text-align: center;
+		text-decoration: none;
+	
+	}
+	
+	main section:nth-of-type(1) h2{
+		font-weight: 700;
+		font-size: 17px;
+		line-height: 1.28571;
+		letter-spacing: 0.32px;
+	}
+	
+	main section:nth-of-type(1) h3{
+		font-weight: 700;
+		font-size: 30px;
+		line-height: 1.28571;
+		letter-spacing: 0.32px;
+	}
+	
+	main section:nth-of-type(1) li img {
+		width: 100%;
+		order: -1;
+	}
+
+	
 
 /* 1E SECTION IN DE MAIN */
 
 /* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
-main > ul :nth-of-type(3){
+main > ul:nth-of-type(2),
+main > ul:nth-of-type(3){
 	display:flex;
-	color: green;
-	font-family: 'Courier New', Courier, monospace;
+	justify-content: space-between;
+	color: var(--color-brown);
+	font-family: 'MIAUW';
+	font-weight: 300;
+	font-size: 16px;
 }
 
 
@@ -159,13 +220,42 @@ main section:nth-of-type(2) a {
 
 
 /* kleuren hele section */
+/* main section:nth-of-type(2){
+	background-color: var(--color-yellow);
+	overflow: hidden;
+
+	border-radius: 50%;
+	height: 544px;
+	width: 170%;
+} */
+
 main section:nth-of-type(2){
 	background-color: var(--color-yellow);
-	border-top-left-radius: 20em;
-	border-top-right-radius: 20em;
-	overflow: hidden;
+	text-align: center;
+
+	position: relative;
+	padding: 2em;
+	
+	left: 0;
+	right: 0;
+
+	padding-top: 2em;
+	border-top-right-radius: 30%;
+	border-top-left-radius: 30%;
 }
 
+
+main section:nth-of-type(2) h2{
+	text-align: center;
+
+}
+
+main section:nth-of-type(2) img{
+	display: flex;
+	justify-items: center;
+	width: 100%;
+
+}
 /* 2E SECTION MAIN EIND */
 
 /* 3E SECTION MAIN */
@@ -173,39 +263,105 @@ main section:nth-of-type(3){
 background-color: var(--color-white);
 }
 
-main section:nth-of-type(3) img:nth-of-type(2){
+main section:nth-of-type(3) > img:nth-of-type(1){
+	position: absolute;
+	left: 71%;
+	top:443%;
+}
+
+main section:nth-of-type(3) > img:nth-of-type(2){
 	width: 100%;
 	height: auto; 
 	border-top-left-radius: 20em;
 	border-top-right-radius: 20em;
 	border: 0.20rem solid var(--color-blue);
-	
+	margin-top: 3em;
+	margin-left: 1em;
+	margin-right: 1em;
 }
-
-
 /* IK KRIJG M NIET WEG VAN LINKS */
-#position-right{
-	position: relative;
+
+main section:nth-of-type(3) ul{
+	overflow: auto;
+	white-space: nowrap;
+	margin: 1.5em;
+
+
 }
 
-#position-right img:first-of-type{
-	display: block;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 40%;
-	transform:translate(-25%,-50%);
-	z-index: 1;
+main section:nth-of-type(3) ul li{
+	display: inline-block;
 }
-/* HOE KRIJG IK DE IMAGES EN DE TEKST NOU WEER HORIZONTAAL EN DE 1E IMAGE RECHTSBOVEN EN DE UL IMG'S LOS DAARVAN */
-main section:nth-of-type(3) ul img{
-display: flex;
-width: 100%;
-height: auto;
+
+main section:nth-of-type(3) ::-webkit-scrollbar{
+	height: 5px;
 }
+main section:nth-of-type(3) ::-webkit-scrollbar-track{
+	background: lightgrey;
+}
+main section:nth-of-type(3) ::-webkit-scrollbar-thumb{
+	background: grey;
+}
+
+main section:nth-of-type(3) ul > li img{
+	/* display: block; */
+    z-index: 1;
+	width: 10em;
+}
+
+main section:nth-of-type(3) ul > li:nth-of-type(1){
+	background-color:pink;
+	border-radius: 50%;
+	width: 9em;
+	height: 9em;
+}
+
+main section:nth-of-type(3) ul > li:nth-of-type(2){
+	background-color: var(--color-blue);
+	border-radius: 50%;
+	width: 9em;
+	height: 9em;
+}
+
+main section:nth-of-type(3) ul > li:nth-of-type(3){
+	background-color:purple;
+	border-radius: 50%;
+	width: 9em;
+	height: 9em;
+}
+
+main section:nth-of-type(3) ul > li:nth-of-type(4){
+	background-color:yellow;
+	border-radius: 50%;
+	width: 9em;
+	height: 9em;
+}
+
+main section:nth-of-type(3) ul > li:nth-of-type(5){
+	background-color:pink;
+	border-radius: 50%;
+	width: 9em;
+	height: 9em;
+}
+
+main section:nth-of-type(3) ul > li img{
+	height:11em;
+	width:11em;
+	object-fit:cover;
+}
+
+
+
+/* section 4 */
 
 main section:nth-of-type(4) ul{
+overflow: auto;
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+main section:nth-of-type(4) ul img{
+	width: 80%;
+}
+
