@@ -15,12 +15,17 @@
 	/* startje */
 	--color-text:#111;
 	--color-background:#fef2b6;
-	--color-titels:brown;
+	--color-darkgrey:#6d6e70;
+	--color-lightgrey:#dbdee3;
 	--color-white:#FFFFFF;
 	--color-brown:#5b1f06;
 	--color-yellow:#ffd200;
-	--color-lightgrey:#f3f6fb;
+	--color-lightlightgrey:#f3f6fb;
 	--color-blue:#0e74e2;
+	--color-pink:#ffadbf;
+	--color-red:#d70100;
+	--color-green:#73cf11;
+	--color-lilac:#d7a1ff;
 }
 
 
