@@ -1,15 +1,39 @@
 @font-face {
-	font-family: 'fontsans';
-	src: url("../font/AllTogetherSans-Regular.woff2");
+	font-family: 'regular';
+	src: url("../fonts/AllTogetherSans-Regular.woff2");
 	font-weight: 400;
   }
 
   @font-face {
-	font-family: 'MIAUW';
-	src: url("../font/AllTogetherSerif-WideBlk.woff2");
-	font-weight: 400;
+	font-family: 'wideblck';
+	src: url("../fonts/AllTogetherSerif-WideBlk.woff2");
   }
 
+  @font-face{
+	font-family: 'bold';
+	src:url("../fonts/AllTogetherSans-Bold.woff2");
+  }
+
+  @font-face{
+	font-family:'regular';
+	src:url("../fonts/AllTogetherSans-Regular.woff2");
+  }
+
+  @font-face{
+	font-family:'semilight';
+	src:url("../fonts/AllTogetherSans-SemiLight.woff2");
+  }
+
+
+  @font-face{
+	font-family:'cnbold';
+	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
+  }
+
+ @font-face{
+	font-family:'cnlight';
+	src: url("../fonts/AllTogetherSerif-CnLight.woff2.woff2");
+ }
 
   :root {
 	/* startje */
@@ -36,15 +60,24 @@ main{
 
 /* 1E TWEE ZINNEN */
 /* https://www.w3schools.com/cssref/pr_text_text-align.php */
-main h1{
+main:first-of-type h1{
 	text-align: left;
+	margin-top: 3em;
+	font-size: 14px;
 	color: var(--color-brown);
+	font-family:'bold';
+	padding:40px 24px 0px ;
+	padding-left: 24px;
+}
 
-}
-main h2 {
+main:first-of-type h2 {
 	text-align: left;
+	font-size: 32px;
 	color: var(--color-brown);
+	font-family: 'bold';
+	padding-left:24px ;
 }
+
 main h3{
 	color: var(--color-brown);
 }
@@ -73,7 +106,7 @@ main>ul:first-of-type li{
 main>ul:first-of-type li a{
 	text-decoration: none;
 	color: var(--color-brown);
-	font-family: 'MIAUW';
+	font-family: 'cnlight';
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.25;
@@ -86,7 +119,7 @@ main>ul:first-of-type li a{
 
 main>ul:first-of-type li:first-of-type{
 	display: flex;
-	background-color: white;
+	background-color: var(--color-white);
 	justify-content: center;
 }
 
@@ -105,21 +138,37 @@ main>img:first-of-type{
 
 /* 1E SECTION IN DE MAIN */
 
+main section:nth-of-type(1) li img {
+	width: 100%;
+	order: -1;
+}
+
 main section:nth-of-type(1) ul li{
 	position: relative;
 }
-	
+
+main section:nth-of-type(1) ul li img:nth-of-type(1){
+	display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    transform:translate(-25%,-50%);
+    z-index: 1;
+
+}
+
 main section:nth-of-type(1) li:nth-of-type(1){
-	background-color: #FFABCF;
+	background-color: var(--color-pink);
 	margin-right: -3em;
 
 }
 main section:nth-of-type(1) li:nth-of-type(2){
-	background-color: #0e74e2;
+	background-color: var(--color-blue);
 }
 
 main section:nth-of-type(1) li:nth-of-type(3){
-	background-color: #d70100;
+	background-color: var(--color-red);
 	margin-right: -3em;
 }
 
@@ -135,7 +184,6 @@ main section:nth-of-type(1) ul li img:nth-of-type(1){
 }
 
 main section:first-of-type ul{
-	/* display: block; */
 	justify-content: space-between;
 	}
 	
@@ -166,27 +214,31 @@ main section:first-of-type ul{
 	main section:first-of-type li a {
 		text-align: center;
 		text-decoration: none;
-	
 	}
+	main section:first-of-type li a{
+		color: var(--color-brown);
+		font-family:'regular';
+		font-weight: bold;
+		padding: 0;
+	}
+
 	
 	main section:nth-of-type(1) h2{
+		font-family: 'regular';
 		font-weight: 700;
 		font-size: 17px;
-		line-height: 1.28571;
-		letter-spacing: 0.32px;
+		font-family: 'regular';
+		font-weight: bold;
+		padding: 0;
 	}
 	
 	main section:nth-of-type(1) h3{
 		font-weight: 700;
-		font-size: 30px;
 		line-height: 1.28571;
-		letter-spacing: 0.32px;
+		font-family: 'bold';
+		padding: 0;
 	}
 	
-	main section:nth-of-type(1) li img {
-		width: 100%;
-		order: -1;
-	}
 
 	
 
@@ -198,7 +250,7 @@ main > ul:nth-of-type(3){
 	display:flex;
 	justify-content: space-between;
 	color: var(--color-brown);
-	font-family: 'MIAUW';
+	font-family: 'wideblck';
 	font-weight: 300;
 	font-size: 16px;
 }
@@ -211,7 +263,7 @@ main > ul:nth-of-type(3){
 main section:nth-of-type(2) a {
 	text-decoration: none;   /* zo krijg je geen streepje onder de link */
 	display: block; /* zo is het hele gebied klikbaar */
-	background-color: white;
+	background-color: var(--color-white);
 	padding: 1em;
 	border-radius: 999rem;
 	text-align: center;
@@ -222,37 +274,38 @@ main section:nth-of-type(2) a {
 	margin-right: 1.5em;
 }
 
-
-
-/* kleuren hele section */
-/* main section:nth-of-type(2){
-	background-color: var(--color-yellow);
-	overflow: hidden;
-
-	border-radius: 50%;
-	height: 544px;
-	width: 170%;
-} */
-
 main section:nth-of-type(2){
-	background-color: var(--color-yellow);
 	text-align: center;
-
 	position: relative;
-	padding: 2em;
-	
 	left: 0;
 	right: 0;
-
 	padding-top: 2em;
-	border-top-right-radius: 30%;
-	border-top-left-radius: 30%;
+}
+
+main section:nth-of-type(2){
+	display: grid;
+	background: var(--color-yellow);
+	padding-top: 6em 1em 1em;
+	
+	background-image:radial-gradient(
+		closest-side circle at center 30em,
+		var(--color-yellow)30em,
+		var(--color-background) 30em
+	)
 }
 
 
 main section:nth-of-type(2) h2{
 	text-align: center;
+	font-size: 14px;
 
+}
+
+main section:nth-of-type(2) p{
+	font-family: 'semilight';
+	color: var(--color-brown);
+	text-align: center;
+	font-size: 14px;
 }
 
 main section:nth-of-type(2) img{
@@ -264,6 +317,19 @@ main section:nth-of-type(2) img{
 /* 2E SECTION MAIN EIND */
 
 /* 3E SECTION MAIN */
+main section:nth-of-type(3) p{
+font-family:'regular';
+color: var(--color-brown);
+}
+
+main section:nth-of-type(3) a{
+	font-family:'regular';
+	color: var(--color-brown);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
 main section:nth-of-type(3){
 background-color: var(--color-white);
 }
@@ -284,14 +350,11 @@ main section:nth-of-type(3) > img:nth-of-type(2){
 	margin-left: 1em;
 	margin-right: 1em;
 }
-/* IK KRIJG M NIET WEG VAN LINKS */
 
 main section:nth-of-type(3) ul{
 	overflow: auto;
 	white-space: nowrap;
 	margin: 1.5em;
-
-
 }
 
 main section:nth-of-type(3) ul li{
@@ -315,7 +378,7 @@ main section:nth-of-type(3) ul > li img{
 }
 
 main section:nth-of-type(3) ul > li:nth-of-type(1){
-	background-color:pink;
+	background-color:var(--color-pink);
 	border-radius: 50%;
 	width: 9em;
 	height: 9em;
@@ -329,21 +392,21 @@ main section:nth-of-type(3) ul > li:nth-of-type(2){
 }
 
 main section:nth-of-type(3) ul > li:nth-of-type(3){
-	background-color:purple;
+	background-color:var(--color-green);
 	border-radius: 50%;
 	width: 9em;
 	height: 9em;
 }
 
 main section:nth-of-type(3) ul > li:nth-of-type(4){
-	background-color:yellow;
+	background-color:var(--color-yellow);
 	border-radius: 50%;
 	width: 9em;
 	height: 9em;
 }
 
 main section:nth-of-type(3) ul > li:nth-of-type(5){
-	background-color:pink;
+	background-color:var(--color-pink);
 	border-radius: 50%;
 	width: 9em;
 	height: 9em;
@@ -358,6 +421,16 @@ main section:nth-of-type(3) ul > li img{
 
 
 /* section 4 */
+main section:nth-of-type(4){
+	background-color: var(--color-lightlightgrey);
+}
+main section:nth-of-type(4) h1,h2{
+	text-align: left;
+	font-size: 32px;
+	color: var(--color-brown);
+	font-family: 'bold';
+	padding-left:24px ;
+}
 
 main section:nth-of-type(4) ul{
 overflow: auto;
@@ -370,3 +443,14 @@ main section:nth-of-type(4) ul img{
 	width: 80%;
 }
 
+/* RESPONSIVENESS */
+/* media hier doe je alles mee */
+@media (min-width:65em){
+
+main {
+	background-color: #d70100;
+}
+
+/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
+
+}
