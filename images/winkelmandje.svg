@@ -1,25 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 56.99 28.5">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: none;
-        stroke: #59210f;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-2 {
-        fill: #fff;
-      }
-
-      .cls-3 {
-        fill: #59210f;
-      }
-    </style>
-  </defs>
-  <image width="33" height="37" transform="translate(0 7.17) scale(.58)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAmCAYAAABK4fLXAAAACXBIWXMAABM5AAATOQGPwlYBAAADVUlEQVRYhdWYX0hTURzHv1dl6rb7Z2oUgimJZk62IEURxRLUEmFk9dyLUBAkkSGIyV5SoYcoESzyJTCINAlS6MVA6KEgYY00MfNvljjd5u5MK1gPbuec6dYc3PPQ7+mee377/T78/p1zJwQCgQDikPWVJYz2P8DipAPL05+QqNPBUlkDc/kZlNafR1JySjzmIAiCIMQD8W5kCA9br2J761fE/fQj6Wjq6oO1qpYPxMijexjoth/I8MXmVjQ2t2kL8W1mCrfqysg6z2LFpZYOJCbpAABzzgkM93TCr+4Qna5X48gutGoHcdtWgVmnEwBQUnsWN/qe7dPxuFZx97INc1NTAIDsguPoGn1/IIiEWEqLkw4CYBBT0NTZG1FPyTiMaz1PyHrh8zTmPn6ICQEAMSF+zM+S54LicohpGVF1M4/lw1pRSdZry/MHgkiKrRKAuaQUAGCpqoupba2ux5+dUPcIB4KIq0V5iCAIwr5IvLh/B29fPsX3+WVNnWXmZKGosgaNzW2Q0g6Fg7CR6LvZhPHh55o63ytl5xpwvXeAArAt6ttw4UpxLleAkDx2LEAvKgSCpOOrc4Io5ZwogH3wDXSpek2cbm+psF84jcXpGQDAnGMC5opqsk9adNO1Sl5m5Zs1AwCAFL0R2QUWst5YXQnbJxB+r5e81CsmzQBCYjBRm6pnIxoE3RCVdM0hjDK16XOvR4bwMXRGJU1zCNFEbaoed2QI1c1CKJpDGBkIf9R0MBuiSft0sJFgUx8GwabDIHMoTIna9G1EgVDdLvoDDpEwMjZVb7TCdNNiETnUhIGx6YtWmD+Dl1dBEKCXtE+HXlQgCLtH+/bW7/0Q3vU18kKUtZuUe0WSDeTZw0zoBCC8Howc6iEkBrZDmJEQhGBmhMwPQlLo1ZAd3bsQHlqtokn7eghJ+PlBfQYhPFSRw7lBbMvs6KY+g+mgVAYOJyi1zUC490TCx9SExDESElOY7KzYjQQzy/UcBhW1/Y+aYA8viWOLSibaHX7vnkgkp9Ihom56wEtUxrFOR//HSAKA7EILELzq97e3oL+9hRtISHKKTpJncuVvrTuFpZkv3J0DwNG8XHS/3r3dh32V24fGUN5gg6wYuTmXFSPKG2zoGBzj5uP/lr8eTiViGJMiXQAAAABJRU5ErkJggg=="/>
-  <path class="cls-3" d="M54.86,21.58h-13.93c-1.21,0-2.18-1.01-2.13-2.23l.56-12.24c.05-1.14.99-2.03,2.13-2.03h12.79c1.14,0,2.07.89,2.13,2.03l.59,12.24c.06,1.22-.91,2.23-2.13,2.23Z"/>
-  <rect class="cls-2" x="40.9" y="6.95" width="13.97" height="12.75" rx=".62" ry=".62"/>
-  <path class="cls-1" d="M43.94,4.6c0-.14.03-2.17,1.65-3.15,1.11-.67,2.27-.42,2.56-.35,2.41.53,3.27,3.29,3.31,3.44"/>
-</svg>
+<svg aria-hidden="true" fill="none" focusable="false" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="css-84d4bu"><defs><symbol id="bagEmpty" viewBox="0 0 24 24">
+      <path stroke="currentColor" stroke-width="2" d="M4.13 8.4A1.5 1.5 0 0 1 5.63 7h12.74c.79 0 1.44.6 1.5 1.4l.94 13a1.5 1.5 0 0 1-1.5 1.6H4.7a1.5 1.5 0 0 1-1.5-1.6l.94-13ZM16 5.18A4.1 4.1 0 0 0 12 1C9.8 1 8 2.87 8 5.18"></path>
+    </symbol></defs><use xlink:href="#bagEmpty"></use></svg>

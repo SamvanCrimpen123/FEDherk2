@@ -1,0 +1,5 @@
+<svg aria-hidden="true" fill="none" focusable="false" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="css-84d4bu"><defs><symbol id="person" viewBox="0 0 24 24">
+      <circle stroke="currentColor" stroke-width="2" cx="12" cy="12" r="11"></circle>
+      <circle fill="currentColor" cx="12" cy="9" r="4"></circle>
+      <path fill="currentColor" d="M4.06 21a8 8 0 0 1 15.88 0 11.95 11.95 0 0 1-15.88 0Z"></path>
+    </symbol></defs><use xlink:href="#person"></use></svg>

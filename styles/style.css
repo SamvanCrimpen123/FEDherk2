@@ -67,10 +67,13 @@ header {
   header{
 	display:grid;
 	grid-template-columns: .5fr .5fr .5fr; 
-	grid-template-rows:.5fr .5fr ;
+	grid-template-rows:1fr 1fr;
 	grid-template-areas:
 	"navigatie logo icons"
 	"ontwerp witruimte mix";
+	height: 7.188rem;
+	/* overflow: hidden; */
+	height: calc(7.188rem);
   }
   nav button{
 	grid-area:navigatie;
@@ -98,6 +101,7 @@ header {
 	inset:0;
 	padding-top:2em;
 	overflow: scroll;
+	width: 80%;
 	transition: transform 0.3s ease;
 	translate:-100% 0;
 	transition:.5s;
@@ -126,8 +130,82 @@ header > ul img {
 	width: 2em;
 }
 
+header ul:nth-of-type(3){
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	border-radius: 5%;
+}
+
+  header ul:nth-of-type(3) li {
+	background-color: var(--color-lightlightgrey);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex: 1;
+	padding: 1em;
+	margin: 2em;
+  }
+  
+  header ul:nth-of-type(3) li a {
+	color: white;
+	text-decoration: none;
+	color: var(--color-brown);
+  }
+  
+  header ul:nth-of-type(3) li img {
+	display: inline-block;
+	margin-bottom: 1em;
+  }
+
+
+
+  header nav section ul:nth-of-type(4) li {
+	/* background-color: gray; Or any other styles for your button */
+	padding: 10px;
+	display: inline-block; 
+  }
+  
+  header nav section ul:nth-of-type(4) li a {
+	text-decoration: none;
+	color: var(--color-brown);
+	padding: 10px;
+	display: block;
+  }
+  
+  header nav section ul:nth-of-type(4) li img {
+	margin-right: 8px;
+  }
+
+
+  header ul:nth-of-type(5){
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	border-radius: 5%;
+}
+header ul:nth-of-type(5) li:nth-of-type(3) img{
+	border-radius: 50%;
+}
+
+
+/* FOOTER */
 footer> img:nth-of-type(1){
 	width: 97%;
 	background-color: var(--color-yellow);
 	padding: 3em;
+}
+
+footer ul:nth-of-type(2){
+	display: flex;
+	justify-content: space-between;
+}
+
+footer ul:nth-of-type(2) img{
+	border: 2px solid #d70100;
+	height: 2.5em;
 }
