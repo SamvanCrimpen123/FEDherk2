@@ -110,11 +110,6 @@ header {
 	grid-column: 3;
  } */
 
-
-
-
- /* IK KRIJG DEZE NIET VAN HUN PLEK */
-
  header ul:last-of-type li:nth-of-type(1){
 	grid-area: ontwerp;
  }
