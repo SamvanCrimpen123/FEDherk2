@@ -68,25 +68,59 @@ header {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr; 
 	grid-template-rows:1fr 1fr 1fr;
-	grid-template-areas:
+	/* grid-template-areas:
 	"navigatie logo icons"
-	"ontwerp witruimte mix";
+	"ontwerp witruimte mix"; */
 	height: 7.188rem;
 	height: calc(7.188rem);
   }
   nav button{
-	grid
-	grid-area:navigatie;
+	grid-column: 1;
+	grid-row: 1;
+	/* grid-area:navigatie; */
   }
- header img{
-	grid-area:logo;
+ header img:nth-of-type(1){
+	grid-column: 2;
+	grid-row: 1;
+	/* grid-area:logo; */
  }
 
- header section:nth-of-type(2) ul{
-	grid-area:icons;
+
+ header > section ul:nth-of-type(1){
+	display: flex;
+	/* background-color: pink; */
+	justify-content: left;
+	grid-column: 3;
+	grid-row: 1;
  }
 
- header > ul:nth-of-type(1){
+
+ header > ul:nth-of-type(2) li:nth-of-type(1) img{
+	grid-column:1 ;
+	grid-row:2 ;
+	/* background-color: #0e74e2; */
+ }
+
+ header > ul:nth-of-type(2) li:nth-of-type(2){
+	grid-column: 2;
+	grid-row: 2;
+	/* background-color: green; */
+ }
+
+ header > ul:nth-of-type(3) li:nth-of-type(1){
+	grid-column: 2;
+	grid-row: 2;
+	/* background-color: #0e74e2; */
+ }
+
+ header > ul:nth-of-type(3) li:nth-of-type(2){
+	grid-column: 3;
+	grid-row: 2;
+	/* background-color: green; */
+ }
+
+
+ /* header > ul:nth-of-type(1){
 	background-color: beige;
 	grid-area: ontwerp;
  }
@@ -94,9 +128,8 @@ header {
  header > ul:nth-of-type(2){
 	background-color: beige;
 	grid-area: mix;
- }
+ } */
 
- grid-column: 1/2; 
 
  /* header > ul li:nth-of-type(1){
 	grid-area: ontwerp;
@@ -110,14 +143,7 @@ header {
 	grid-column: 3;
  } */
 
- header ul:last-of-type li:nth-of-type(1){
-	grid-area: ontwerp;
- }
-
- header ul:last-of-type li:nth-of-type(2){
-	grid-area: mix;
- }
-
+ 
   /* ONZICHTBAAR MENU IN DE NAV */
   header nav section:first-of-type {
 	position:absolute;
@@ -190,7 +216,6 @@ header ul:nth-of-type(3){
 
 
   header nav section ul:nth-of-type(4) li {
-	/* background-color: gray; Or any other styles for your button */
 	padding: 10px;
 	display: inline-block; 
   }
@@ -269,12 +294,13 @@ footer ul img {
     height: auto;
 }
 
+
 footer ul:nth-of-type(2){
 background-color: green;
 
 }
 
-footer ul:nth-of-type(2) li{
+/* footer ul:nth-of-type(2) li{
 	display: grid;
 
 }
@@ -301,4 +327,4 @@ footer ul:nth-of-type(2) li:nth-of-type(2) img{
 	grid-column: 2;
 	grid-row: 2;
 	justify-self: end;
-}
+}  */

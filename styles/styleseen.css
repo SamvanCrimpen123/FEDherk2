@@ -298,7 +298,6 @@ main section:nth-of-type(2){
 main section:nth-of-type(2) h2{
 	text-align: center;
 	font-size: 14px;
-
 }
 
 main section:nth-of-type(2) p{
@@ -347,8 +346,6 @@ main section:nth-of-type(3) > img:nth-of-type(2){
 	border-top-right-radius: 20em;
 	border: 0.20rem solid var(--color-blue);
 	margin-top: 3em;
-	margin-left: 1em;
-	margin-right: 1em;
 }
 
 main section:nth-of-type(3) ul{
@@ -434,7 +431,9 @@ main section:nth-of-type(4) h1,h2{
 
 main section:nth-of-type(4) ul{
 overflow: auto;
-display: flex;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-rows: 1fr 1fr;
 justify-content: center;
 align-items: center;
 }
@@ -445,12 +444,170 @@ main section:nth-of-type(4) ul img{
 
 /* RESPONSIVENESS */
 /* media hier doe je alles mee */
-@media (min-width:65em){
 
-main {
-	background-color: #d70100;
-}
 
-/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
 
-}
+/* RESPONSIVENESS */
+/* media hier doe je alles mee */
+@media (min-width:0px){
+
+	main {
+		/* background-color: #d70100; */
+	}
+	
+	/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
+	
+	}
+
+	@media (min-width:481px){
+
+		main {
+			/* background-color: blue; */
+		}
+		
+		/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
+		
+		}
+
+@media (min-width:679px){
+
+	main {
+		background-color: purple;
+	}
+	
+	/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
+	
+	}
+
+
+	@media (min-width:1280px) {
+
+		main>ul:first-of-type{
+			width: 21.45em;
+		}
+
+		main>img:first-of-type{
+			border-radius: 50%;
+			max-height: 21.45em;
+		}
+
+		main section:nth-of-type(1) ul{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			padding-left: 10em;
+			padding-right: 10em;
+		}
+
+		main section:nth-of-type(1) li:nth-of-type(1){
+			grid-column: 1;
+		}
+		main section:nth-of-type(1) li:nth-of-type(2){
+			grid-column: 2;
+		}
+		
+		main section:nth-of-type(1) li:nth-of-type(3){
+			grid-column: 3;
+			margin-left: 2em;
+		}
+
+
+		/* "BEWEGENDE" WOORDEN */
+
+		main > ul:nth-of-type(2),
+		main > ul:nth-of-type(3){
+			justify-content: center;
+			font-size: 30px;
+			justify-content: space-between;
+		}
+
+		main > ul:nth-of-type(2) {
+			margin-bottom: 1em;
+			padding-bottom: 0;
+		}
+
+		main > ul:nth-of-type(3){
+			margin-top: 0;
+			padding-top: 0;
+		}
+
+		/* "BEWEGENDE" WOORDEN EIND */
+		
+
+		main section:nth-of-type(2) a {
+			width: 22.67em;
+			justify-self: center;
+		}
+		
+		main section:nth-of-type(2){
+			text-align: center;
+			position: relative;
+			left: 0;
+			right: 0;
+			padding-top: 2em;
+		}
+		
+		main section:nth-of-type(2){
+			display: grid;
+			background: var(--color-yellow);
+			padding-top: 6em 1em 1em;
+			
+			background-image:radial-gradient(
+				closest-side ellipse at center top 30em,
+				var(--color-yellow)30em,
+				var(--color-background) 30em
+			)
+		}
+
+		main section:nth-of-type(2) img{
+			content: url(../images/inarow.png);
+			padding-top: 18em;
+		}
+
+		main section:nth-of-type(3){
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr;
+			height: 50em;
+			margin: 3em;
+			padding: 3em;
+			background-color: white;
+		}
+
+
+		main section:nth-of-type(3) > img:nth-of-type(2){
+			grid-column: 1;
+			width: 100%;
+			height: auto; 
+			border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+			border: 0.20rem solid var(--color-blue);
+			margin-top: 3em;
+			height: 31.88em;
+			width: auto;
+		}
+
+		main section:nth-of-type(3) h2,
+		main section:nth-of-type(3) p,
+		main section:nth-of-type(3) a,
+		main section:nth-of-type(3) ul{
+			grid-column: 2;
+			grid-row: 1;
+		}
+
+		main section:nth-of-type(3) p{
+			align-items: top;
+		}
+
+		main section:nth-of-type(3) a{
+			align-self: top;
+		}
+
+		section:nth-of-type(3) ul {
+			align-self: center;
+	}
+
+		
+
+		/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
+		
+		}

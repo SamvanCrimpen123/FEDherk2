@@ -13,7 +13,7 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 <body>
-	<header> <!-- maak van header n grid met bovenste row 3 vakken en onderste 2 -->
+	<header>
 		
 		<nav>
 			<!-- NAV HAMBURGERMENU START -->
@@ -70,22 +70,24 @@
 					</li>
 				</ul>
 
+				<form>
+					<input type="radio" id="lightmode" name="favMode" value="lightmde">
+					<label for="lightmode">lightmode</label><br>
+					<input type="radio" id="darkmode" name="favMode" value="darkmode">
+					<label for="css">darkmode</label><br>
+				  </form>
+
 				<ul>
 					<li><img src="images/profiel.svg" alt=""></li>
 					<li><p>mijn account</p></li>
 					<li><img src="images/nl.svg" alt=""></li>
 					<!-- mijn account, vastmaken aan bodem -->
-
 				</ul>
+						<!-- EIND HAMBURGERMENU -->
 			</section>
 
 			<button aria-label="menu"><img src="images/menulijntjes.svg" alt="menuknop"></button>
-		<!-- EIND HAMBURGERMENU -->
-		 
 
-			<!-- order -1 van image om het in het midden te krijgen -->
-
-			
 		</nav>
 		<section>
 			<ul>
@@ -95,35 +97,24 @@
 		</section>
 		
 		<img src="images/logootje.svg" alt="welkom op de m&m website">
-			<!-- <ul>
-				<li>
-					<img src="images/minim.svg" alt="klik hier om je eigen m&m's te ontwerpen">
-					<a href="tweedepag.html">ontwerp uw eigen m&m's</a> 
-				</li>
-				<li>
-					<img src="images/triplem.svg" alt="klik hier om je eigen m&m peanut mix te maken ">
-					<a href="tweedepag.html">mix je m&m's peanut</a>
-				</li>
-			</ul> -->
 
-			<ul>
-				<li><img src="images/minim.svg" alt="klik hier om je eigen m&m's te ontwerpen"></li>
-				<li><a href="tweedepag.html">ontwerp uw eigen m&m's</a></li>
-			</ul>
+		<ul>
+			<li>
+				<img src="images/minim.svg" alt="klik hier om je eigen m&m's te ontwerpen">
+			</li>
+			<li>
+				<a href="tweedepag.html">ontwerp uw eigen m&m's</a>
+			</li>
+		</ul>
 
-			<ul>
-				<li><img src="images/triplem.svg" alt="klik hier om je eigen m&m peanut mix te maken "></li>
-				<li><a href="tweedepag.html">mix je m&m's peanut</a> <!--hier moet link naar tweede pag--></li>
-			</ul>
-
-
-
-
-
-
-
-
-
+		<ul>
+			<li>
+				<img src="images/triplem.svg" alt="klik hier om je eigen m&m peanut mix te maken ">
+			</li>
+			<li>
+				<a href="tweedepag.html">mix je m&m's peanut</a> 
+			</li>
+		</ul>
 		<!-- tweede menu eind -->
 	</header>
 
@@ -282,18 +273,38 @@
 	<p>Door op de verzendknop te klikken bevestig je dat je ouder bent dan 16, dat je marketingcommunicatie van M&M’S en andere merken van Mars Wrigley wilt ontvangen op het opgegeven e-mailadres en dat je instemt met ons Privacybeleid.</p>
 	<button><p>ik meld me aan</p></button>
 
-	<ul>
-		<li>
-			<p>klantenservice</p>
-			<img src="images/down.svg" alt="">
-		</li>
-		<li>
-			<p>over ons</p>
-			<img src="images/down.svg" alt="">
-		</li>
-	</ul>
 
-	<!--dropdown-->
+
+	
+	<ul>
+		<!-- First List Item with Section -->
+		<li>
+		  <section>
+			<h2>Klantenservice</h2>
+			<img src="images/down.svg" alt="Dropdown Icon">
+			<ul>
+			  <li><a href="#">Verzending</a></li>
+			  <li><a href="#">Algemene verkoopvoorwaarden</a></li>
+			  <li><a href="#">Veelgestelde vragen</a></li>
+			  <li><a href="#">Status van je bestelling</a></li>
+			  <li><a href="#">Neem contact met ons op</a></li>
+			</ul>
+		  </section>
+		</li>
+	  
+		<li>
+		  <section>
+			<h2>Over ons</h2>
+			<img src="images/down.svg" alt="Dropdown Icon">
+			<ul>
+			  <li><a href="#">Onze winkels</a></li>
+			  <li><a href="#">Carrières</a></li>
+			</ul>
+		  </section>
+		</li>
+	  </ul>
+
+	
 	<ul>
 		<li>
 			<p>volg ons</p>
