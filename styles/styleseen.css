@@ -64,7 +64,7 @@ main:first-of-type h1{
 	text-align: left;
 	margin-top: 3em;
 	font-size: 14px;
-	color: var(--color-white);
+	color: var(--color-brown);
 	font-family:'bold';
 	padding:40px 24px 0px ;
 	padding-left: 24px;
