@@ -50,6 +50,7 @@
 	--color-red:#d70100;
 	--color-green:#73cf11;
 	--color-lilac:#d7a1ff;
+	--color-lime:#dce84f;
 }
 
 
@@ -168,7 +169,7 @@ main section:nth-of-type(1) li:nth-of-type(2){
 }
 
 main section:nth-of-type(1) li:nth-of-type(3){
-	background-color: var(--color-red);
+	background-color: var(--color-lime);
 	margin-right: -3em;
 }
 
