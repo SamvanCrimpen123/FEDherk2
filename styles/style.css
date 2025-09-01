@@ -51,7 +51,7 @@ ul{
 /****************/
 header {
 	width: 100%;
-	background-color:var(--color-white);
+	background-color:var(--color-brown);
   }
 
   header button:nth-of-type(1) {
