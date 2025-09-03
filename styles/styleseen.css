@@ -41,12 +41,12 @@
 	--color-background:#d4ebff;
 	--color-darkgrey:#6d6e70;
 	--color-lightgrey:#dbdee3;
+	--color-lightlightgrey:#f3f6fb;
 	--color-white:#FFFFFF;
 	--color-brown:#5b1f06;
 	--color-yellow:#ffd200;
-	--color-lightlightgrey:#f3f6fb;
 	--color-blue:#0e74e2;
-	--color-pink:#fa6400;
+	--color-orange:#fa6400;
 	--color-red:#d70100;
 	--color-green:#73cf11;
 	--color-lilac:#d7a1ff;
@@ -160,7 +160,7 @@ main section:nth-of-type(1) ul li img:nth-of-type(1){
 }
 
 main section:nth-of-type(1) li:nth-of-type(1){
-	background-color: var(--color-pink);
+	background-color: var(--color-orange);
 	margin-right: -3em;
 
 }
