@@ -65,61 +65,74 @@ header {
 
   /* HIER KLOTEN MET GRID  */
   /* fr gebruik je bij grid, colums horizontaal, row verticaal */
+ /* HIER KLOTEN MET GRID  */
+  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
   header{
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
-	grid-template-rows:1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 	/* grid-template-areas:
 	"navigatie logo icons"
 	"ontwerp witruimte mix"; */
-	height: 7.188rem;
-	height: calc(7.188rem);
+
+	}
+  header nav {
+ grid-column:span 1
   }
-  nav button{
-	grid-column: span 2;
-	grid-row: 1;
-	/* grid-area:navigatie; */
-  }
- header img:nth-of-type(1){
-	grid-column: 2;
-	grid-row: 1;
+ header > img{
+	 justify-self:center;
+	 align-self:center;
+	 grid-column:span 4;
+	 background-color:coral
+		 
+
 	/* grid-area:logo; */
  }
 
 
- header > section ul:nth-of-type(1){
-	display: flex;
-	 background-color: pink; 
-	justify-content: left;
-	grid-column: 3;
-	grid-row: 1;
+ header > section ul:nth-of-type(1) {
+ background-color: pink;
+	 display:flex;
+	 grid-column:span 1;
  }
 
+header > nav{
+	grid-column:1;
+}
 
- header > ul:nth-of-type(2) li:nth-of-type(1) img{
-	grid-column:1 ;
-	grid-row:2 ;
+header>ul:nth-of-type(1){
+	display:flex;
+	grid-column:span 3;
+}
+header>ul:nth-of-type(2){
+	display:flex;
+	grid-column:span 3;
+}
+/*DIT ZIJN DE LAATSTE TWEE IMAGES EN LINKJES IN DE HEADER */
+ header > ul:nth-of-type(1) li:nth-of-type(1) img {
+	 /*voor grootte image specifiek  */
+	 grid-column: span 2;
+	 background-color:green
 	/* background-color: #0e74e2; */
+ }
+header > ul:nth-of-type(1) li:nth-of-type(2){
+	background-color:green
+}
+header > ul:nth-of-type(2) li:nth-of-type(1) img{
+	/*voor grootte image specifiek  */
+	grid-column: span 2;
+	background-color:black
+}
+
+ header > ul:nth-of-type(2) li:nth-of-type(2){
+background-color:black
+	/* background-color: green; */
  }
 
  header > ul:nth-of-type(2) li:nth-of-type(2){
-	grid-column: 2;
-	grid-row: 2;
+grid-column:span 5;
+	 
 	/* background-color: green; */
  }
-
- header > ul:nth-of-type(3) li:nth-of-type(1){
-	grid-column: 2;
-	grid-row: 2;
-	/* background-color: #0e74e2; */
- }
-
- header > ul:nth-of-type(3) li:nth-of-type(2){
-	grid-column: 3;
-	grid-row: 2;
-	/* background-color: green; */
- }
-
  
   /* ONZICHTBAAR MENU IN DE NAV */
   header nav section:first-of-type {
