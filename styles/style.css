@@ -67,7 +67,7 @@ header {
   /* fr gebruik je bij grid, colums horizontaal, row verticaal */
   header{
 	display:grid;
-	grid-template-columns: 1fr 1fr 1fr; 
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
 	grid-template-rows:1fr 1fr 1fr;
 	/* grid-template-areas:
 	"navigatie logo icons"
