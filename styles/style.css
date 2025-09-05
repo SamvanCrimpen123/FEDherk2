@@ -93,6 +93,7 @@ header {
  background-color: pink;
 	 display:flex;
 	 grid-column:span 1;
+	 /* als ie kut doet haal ul nth of type weg */
  }
 
 header > nav{
