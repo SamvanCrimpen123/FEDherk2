@@ -232,13 +232,11 @@ main section:first-of-type ul{
 		font-family: 'bold';
 		padding: 0;
 	}
-	
-
-	
 
 /* eind 1E SECTION IN DE MAIN */
 
 /* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
+/* hoe maak ik hier een bewegend element van en hoe laat ik het overeen komen met het origineel */
 main > ul:nth-of-type(2),
 main > ul:nth-of-type(3){
 	display:flex;
