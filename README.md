@@ -85,6 +85,10 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 <a href="https://miro.com/app/board/uXjVLdggZVo=/?share_link_id=460490364818">miro board link met uitwerkingen 1e pagina</a>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+  De 3e les heb ik bijgewoond zodat ik weer even een opfrisser kreeg over grid. Ik vond dit de voorgaande jaren lastig, dit dit was een waardevolle les om te volgen
+  notities:
+  in flexbox is het 1 dimentionaal, grid is 3dimentionaal. 
+  deze les heb ik besteed aan het in ene grid plaatsen van mijn header en het verduidelijken van mijn eigen code zodat ik makkelijker en sneller kan werken. 
 
   ### de hele pagina: 
   <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -109,6 +113,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep.
+
 
 
   ### Agenda voor meeting

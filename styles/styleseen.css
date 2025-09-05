@@ -60,7 +60,7 @@ main{
 	background-color: var(--color-background);
 }
 
-/* 1E TWEE ZINNEN */
+/* eerste zin */
 /* https://www.w3schools.com/cssref/pr_text_text-align.php */
 main:first-of-type h1{
 	text-align: left;
@@ -71,7 +71,7 @@ main:first-of-type h1{
 	padding:40px 24px 0px ;
 	padding-left: 24px;
 }
-
+/* tweede zin */
 main:first-of-type h2 {
 	text-align: left;
 	font-size: 32px;
@@ -79,20 +79,26 @@ main:first-of-type h2 {
 	font-family: 'bold';
 	padding-left:24px ;
 }
+/* eind eerste twee zinnen */
 
 main h3{
 	color: var(--color-brown);
 }
 /* EIND 1E TWEE ZINNEN */
 
-/* EERSTE TWEE BUTTONS IN DE MAIN, 2LI'S IN EEN UL AANSPREKEN*/
 /* door > te gebruiken spreek ik alleen het directe eerste kind in main aan. hierdoor worden alle andere ul niet aangesproken (dit gebeurde zonder > wel) */
+/* eerste button in main */
 main>ul:first-of-type{
 	list-style: none;
 	padding: 0;
 	margin-top: 2rem;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
+}
+
+/* image in eerste button */
+main>ul:first-of-type li img{
+	width: 2em;
 }
 
 main>ul:first-of-type li{
@@ -103,6 +109,9 @@ main>ul:first-of-type li{
 	margin-bottom: 2em;
 	text-align: center;
 	font-size: 1rem;
+	display: flex;
+	background-color: var(--color-white);
+	justify-content: center;
 }
 
 main>ul:first-of-type li a{
@@ -118,18 +127,10 @@ main>ul:first-of-type li a{
 	margin-right: 1em;
 
 }
-
-main>ul:first-of-type li:first-of-type{
-	display: flex;
-	background-color: var(--color-white);
-	justify-content: center;
-}
-
-main>ul:first-of-type li img{
-	width: 2em;
-}
+/* eind buttons in main */
 
 /* https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+/* eerste image in main */
 main>img:first-of-type{
 	border-radius: 50%;
 	max-width: 100%;
@@ -137,6 +138,7 @@ main>img:first-of-type{
 	margin: auto;
 	transform: translateX(10%);
 }
+/* eind eerste image in main */
 
 /* 1E SECTION IN DE MAIN */
 
@@ -244,7 +246,7 @@ main section:first-of-type ul{
 
 	
 
-/* 1E SECTION IN DE MAIN */
+/* eind 1E SECTION IN DE MAIN */
 
 /* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
 main > ul:nth-of-type(2),
