@@ -151,16 +151,6 @@ main section:nth-of-type(1) ul li{
 	position: relative;
 }
 
-main section:nth-of-type(1) ul li img:nth-of-type(1){
-	display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
-    transform:translate(-25%,-50%);
-    z-index: 1;
-
-}
 
 main section:nth-of-type(1) li:nth-of-type(1){
 	background-color: var(--color-orange);
