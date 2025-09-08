@@ -140,100 +140,96 @@ main>img:first-of-type{
 }
 /* eind eerste image in main */
 
-/* 1E SECTION IN DE MAIN */
+/* Gekleurde buttons met img en tekst: */
+main section:nth-of-type(1) li:nth-of-type(1),
+main section:nth-of-type(1) li:nth-of-type(2),
+main section:nth-of-type(1) li:nth-of-type(3) {
+	width: 100%;
+	border-radius: 1em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em;
+}
 
 main section:nth-of-type(1) li img {
 	width: 100%;
 	order: -1;
 }
 
-main section:nth-of-type(1) ul li{
+main section:nth-of-type(1) ul li {
 	position: relative;
 }
 
+main section:nth-of-type(1) li {
+	width: 100%;
+	border-radius: 1em;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em;
+}
 
-main section:nth-of-type(1) li:nth-of-type(1){
+main section:nth-of-type(1) li:nth-of-type(1) {
 	background-color: var(--color-orange);
 	margin-right: -3em;
-
+	margin-left: -2.5em;
 }
-main section:nth-of-type(1) li:nth-of-type(2){
+
+main section:nth-of-type(1) li:nth-of-type(2) {
 	background-color: var(--color-yellow);
 }
 
-main section:nth-of-type(1) li:nth-of-type(3){
+main section:nth-of-type(1) li:nth-of-type(3) {
 	background-color: var(--color-lime);
 	margin-right: -3em;
+	margin-left: -2.5em;
 }
 
-main section:nth-of-type(1) ul li img:nth-of-type(1){
+main section:nth-of-type(1) ul li img:nth-of-type(1) {
 	display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
-    transform:translate(-25%,-50%);
-    z-index: 1;
-
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	transform: translate(-25%, -50%);
+	z-index: 1;
 }
 
-main section:first-of-type ul{
+main section:first-of-type ul {
 	justify-content: space-between;
-	}
-	
-	main section:nth-of-type(1) li:nth-of-type(1),
-	main section:nth-of-type(1) li:nth-of-type(3){
-		width: 100%;
-		border-radius: 1em;
-		margin-top: 5em;
-		margin-bottom: 5em;
-		margin-left: -2.5em;
-		display: flex;
-		flex-direction: column;
-		padding: 1.5em;
-	}
+}
 
-	main section:nth-of-type(1) li:nth-of-type(2){
-		width: 100%;
-		border-radius: 1em;
-		margin-top: 5em;
-		margin-bottom: 5em;
-		display: flex;
-		flex-direction: column;
-		padding: 1.5em;
-	}
-	
-	main section:nth-of-type(1) li h2, 
-	main section:first-of-type li h3, 
-	main section:first-of-type li a {
-		text-align: center;
-		text-decoration: none;
-	}
-	main section:first-of-type li a{
-		color: var(--color-brown);
-		font-family:'regular';
-		font-weight: bold;
-		padding: 0;
-	}
+main section:nth-of-type(1) li h2, 
+main section:first-of-type li h3, 
+main section:first-of-type li a {
+	text-align: center;
+	text-decoration: none;
+}
 
-	
-	main section:nth-of-type(1) h2{
-		font-family: 'regular';
-		font-weight: 700;
-		font-size: 17px;
-		font-family: 'regular';
-		font-weight: bold;
-		padding: 0;
-	}
-	
-	main section:nth-of-type(1) h3{
-		font-weight: 700;
-		line-height: 1.28571;
-		font-family: 'bold';
-		padding: 0;
-	}
+main section:first-of-type li a {
+	color: var(--color-brown);
+	font-family: 'regular';
+	font-weight: bold;
+	padding: 0;
+}
 
-/* eind 1E SECTION IN DE MAIN */
+main section:nth-of-type(1) h2 {
+	font-family: 'regular';
+	font-weight: bold;
+	font-size: 17px;
+	padding: 0;
+}
+
+main section:nth-of-type(1) h3 {
+	font-family: 'bold';
+	font-weight: 700;
+	line-height: 1.28571;
+	padding: 0;
+}
+/* eind Gekleurde buttons met img en tekst: */
 
 /* DISPLAY FLEX WERKT SOMEHOW ALLEEN OP DE 3E IN DE RIJ??  */
 /* hoe maak ik hier een bewegend element van en hoe laat ik het overeen komen met het origineel */
