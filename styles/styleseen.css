@@ -58,6 +58,7 @@
 /* MAIN */
 main{
 	background-color: var(--color-background);
+	overflow: hidden;
 }
 
 /* eerste zin */
@@ -137,6 +138,7 @@ main>img:first-of-type{
 	display: block;
 	margin: auto;
 	transform: translateX(10%);
+	
 }
 /* eind eerste image in main */
 
