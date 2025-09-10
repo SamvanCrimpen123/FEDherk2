@@ -314,7 +314,7 @@ footer ul:nth-of-type(3) img{
 footer ul:nth-of-type(3) p {
     display:flex;
     background-color: #73cf11;
-    justify-content: center;
+    justify-content: left;
 }
 
 footer ul:nth-of-type(3) li{
