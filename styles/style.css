@@ -297,7 +297,12 @@ color: var(--color-brown);
 }
 
 /* socials */
-footer ul:nth-of-type(3) img{
+footer ul:nth-of-type(3) p {
+	background-color:purple;
+	display:flex;
+	justify-content: center;
+}
+footer ul:nth-of-type(3) img {
 	background-color:purple;
 	display:flex;
 }
