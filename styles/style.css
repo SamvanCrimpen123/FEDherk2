@@ -86,7 +86,6 @@ header {
 
 
  header > section ul:nth-of-type(1) {
- background-color: pink;
 	 display:flex;
 	 grid-column:span 1;
 	 /* als ie gek doet haal ul nth of type weg */
@@ -106,29 +105,24 @@ header>ul:nth-of-type(2){
 }
 /*DIT ZIJN DE LAATSTE TWEE IMAGES EN LINKJES IN DE HEADER */
  header > ul:nth-of-type(1) li:nth-of-type(1) img {
-	 /*voor grootte image specifiek  */
 	 grid-column: span 2;
-	 background-color:green
 	/* background-color: #0e74e2; */
  }
-header > ul:nth-of-type(1) li:nth-of-type(2){
-	background-color:green
+header > ul:nth-of-type(1) li:nth-of-type(2) a{
+	text-decoration: none;
+	color:black;
 }
 header > ul:nth-of-type(2) li:nth-of-type(1) img{
-	/*voor grootte image specifiek  */
 	grid-column: span 2;
-	background-color:black
 }
 
- header > ul:nth-of-type(2) li:nth-of-type(2){
-background-color:black
-	/* background-color: green; */
+ header > ul:nth-of-type(2) li:nth-of-type(2) a{
+	text-decoration:none;
+	color:black;
  }
 
  header > ul:nth-of-type(2) li:nth-of-type(2){
 grid-column:span 5;
-	 
-	/* background-color: green; */
  }
  
   /* ONZICHTBAAR MENU IN DE NAV */
