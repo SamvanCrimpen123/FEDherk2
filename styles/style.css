@@ -82,10 +82,6 @@ header {
 	 justify-self:center;
 	 align-self:center;
 	 grid-column:span 4;
-	 background-color:coral
-		 
-
-	/* grid-area:logo; */
  }
 
 
@@ -93,7 +89,7 @@ header {
  background-color: pink;
 	 display:flex;
 	 grid-column:span 1;
-	 /* als ie kut doet haal ul nth of type weg */
+	 /* als ie gek doet haal ul nth of type weg */
  }
 
 header > nav{
@@ -298,7 +294,6 @@ color: var(--color-brown);
 
 /* socials */
 footer ul:nth-of-type(3) img{
-    background-color:purple;
     display:flex;
 }
 
@@ -308,23 +303,29 @@ background-color: var(--color-background);
 }
 
 footer ul:nth-of-type(3) img{
-    background-color:blue;
     height:2em
 }
 footer ul:nth-of-type(3) p {
     display:flex;
-    background-color: #73cf11;
     justify-content: left;
 }
 
 footer ul:nth-of-type(3) li{
-    background-color:red;
     display: flex;
     align-items: end;
 }
 
+footer a{
+	text-decoration:none;
+	color:black;
+}
+
 footer ul:nth-of-type(4){
-    background-color:brown;
+    background-color:var(--color-lightgrey);
+}
+
+footer ul:nth-of-type(4) li img{
+	height:1em;
 }
 
 /* alles op  */
