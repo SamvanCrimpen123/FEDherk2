@@ -17,3 +17,5 @@ function sluitNav() {
 
 
 
+voor scrollbaar: js "if scroll etc etc"
+

@@ -35,6 +35,8 @@
 	src: url("../fonts/AllTogetherSerif-CnLight.woff2.woff2");
  }
 
+ /* pixels weghalen voor toegankelijkheid */
+
   :root {
 	/* startje */
 	--color-text:#111;
