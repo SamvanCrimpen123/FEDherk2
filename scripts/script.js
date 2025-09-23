@@ -15,7 +15,14 @@ function sluitNav() {
 	hetNav.classList.remove("open");
 }
 
-
+function openlijst(id_nav) {
+  const x = document.getElementById(id_nav);
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 // voor scrollbaar: js "if scroll etc etc"
 
