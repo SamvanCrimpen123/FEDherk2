@@ -322,6 +322,11 @@ footer ul:nth-of-type(4) li img{
 	height:1em;
 }
 
+
+#info{
+	display: none;
+}
+
 /* alles op  */
 /* footer ul:nth-of-type(2) li{
 	display: grid;
