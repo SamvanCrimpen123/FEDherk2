@@ -325,6 +325,7 @@ footer ul:nth-of-type(4) li img{
 
 #info{
 	display: none;
+	overflow: hidden;
 }
 
 /* alles op  */
