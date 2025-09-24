@@ -24,6 +24,11 @@ function openlijst(id_nav) {
   }
 }
 
+function inverted(){
+  const buttontext= document.getElementById("halloweenkleur")
+  buttontext.innerText="normaletekst"
+}
+
 
 // voor scrollbaar: js "if scroll etc etc"
 
