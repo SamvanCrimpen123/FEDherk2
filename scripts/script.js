@@ -24,5 +24,6 @@ function openlijst(id_nav) {
   }
 }
 
+
 // voor scrollbaar: js "if scroll etc etc"
 
