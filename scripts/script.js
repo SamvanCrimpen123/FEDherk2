@@ -33,6 +33,7 @@ function inverted(){
     Main.style.backgroundColor="black";
   } else {
     buttontext.innerText = "halloween kleuren";
+    Main.style.backgroundcolor="#d4ebff"
   }
 }
 
