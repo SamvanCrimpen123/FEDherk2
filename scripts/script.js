@@ -24,11 +24,15 @@ function openlijst(id_nav) {
   }
 }
 
-function inverted(){
-  const buttontext= document.getElementById("halloweenkleur")
-  buttontext.innerText="normaletekst"
-}
 
+function inverted(){
+  const buttontext = document.getElementById("halloweenkleur");
+  if(buttontext == "halloween kleuren"){
+    buttontext.innerText = "Normale Kleuren";
+  } else {
+    buttontext.innerText = "halloween kleuren";
+  }
+}
 
 // voor scrollbaar: js "if scroll etc etc"
 
