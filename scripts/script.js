@@ -1,4 +1,4 @@
-const menuButton = document.querySelector("header button");
+const menuButton = document.querySelector("header button:nth-of-type(2)");
 const hetMenu = document.querySelector("header nav section:first-of-type");
 menuButton.onclick = toggleMenu;
 function toggleMenu() {
