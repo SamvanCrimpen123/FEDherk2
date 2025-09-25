@@ -36,7 +36,8 @@ function inverted(){
   } else {
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
-    geluid.stop
+    geluid.pause();
+    geluid.currentTime=0;
   }
 }
 
