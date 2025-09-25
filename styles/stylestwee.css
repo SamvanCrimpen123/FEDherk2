@@ -93,3 +93,6 @@ main ul:nth-of-type(1) li:nth-of-type(6) button{
 #omschrijving{
 	display: none;
 }
+#productdetails{
+	display: none;
+}
