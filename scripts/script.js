@@ -52,12 +52,16 @@ if(mokkleuren=="rood"){
   moknaam.innerText="kleur geel"
 } else if(mokkleuren=="groen"){
   mokImage.src="images/mokgroen.jpeg"
+  moknaam.innerText="kleur groen"
 } else if(mokkleuren=="oranje"){
   mokImage.src="images/mokoranje.jpeg"
+  moknaam.innerText="kleur oranje"
 } else if(mokkleuren=="bruin"){
   mokImage.src="images/mokbruin.jpeg"
+  moknaam.innerText="kleur bruin"
 } else if(mokkleuren=="blauw"){
   mokImage.src="images/mokblauw.jpeg"
+  moknaam.innerText="kleur blauw"
 } 
 }
 
