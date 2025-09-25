@@ -43,10 +43,13 @@ function inverted(){
 
 function kleur(mokkleuren){
 const mokImage=document.getElementById("mokkleur");
+const moknaam = document.querySelector("main h3:first-of-type");
 if(mokkleuren=="rood"){
   mokImage.src="images/mokrood.jpeg"
+  moknaam.innerText="kleur rood"
 } else if(mokkleuren=="geel"){
   mokImage.src="images/mokgeel.jpeg"
+  moknaam.innerText="kleur geel"
 } else if(mokkleuren=="groen"){
   mokImage.src="images/mokgroen.jpeg"
 } else if(mokkleuren=="oranje"){
@@ -57,5 +60,7 @@ if(mokkleuren=="rood"){
   mokImage.src="images/mokblauw.jpeg"
 } 
 }
+
+
 // voor scrollbaar: js "if scroll etc etc"
 
