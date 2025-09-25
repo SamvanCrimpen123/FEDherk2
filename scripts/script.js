@@ -66,7 +66,7 @@ if(mokkleuren=="rood"){
 }
 
 function aftrekken(){
-  const minteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
+  let minteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
   const aantal = Number(minteken);
   if(aantal>1){
     minteken=String(aantal-1)
@@ -74,7 +74,7 @@ function aftrekken(){
 }
 
 function optellen(){
-  const plusteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
+  let plusteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
   const aantal = Number(plusteken);
     plusteken=String(aantal+1)
   }
