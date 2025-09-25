@@ -66,17 +66,17 @@ if(mokkleuren=="rood"){
 }
 
 function aftrekken(){
-  let minteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
-  const aantal = Number(minteken);
-  if(aantal>1){
-    minteken=String(aantal-1)
+  let minteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)")
+  const aantal = Number(minteken.innerText);
+  if(aantal>0){
+    minteken.innerText=String(aantal-1)
   }
 }
 
 function optellen(){
-  let plusteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
-  const aantal = Number(plusteken);
-    plusteken=String(aantal+1)
+  let plusteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)");
+  const aantal = Number(plusteken.innerText);
+    plusteken.innerText=String(aantal+1)
   }
 
 // voor scrollbaar: js "if scroll etc etc"
