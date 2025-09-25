@@ -41,7 +41,21 @@ function inverted(){
   }
 }
 
-
-
+function kleur(mokkleuren){
+const mokImage=document.getElementById("mokkleur");
+if(mokkleuren=="rood"){
+  mokImage.src="images/mokrood.jpeg"
+} else if(mokkleuren=="geel"){
+  mokImage.src="images/mokgeel.jpeg"
+} else if(mokkleuren=="groen"){
+  mokImage.src="images/mokgroen.jpeg"
+} else if(mokkleuren=="oranje"){
+  mokImage.src="images/mokoranje.jpeg"
+} else if(mokkleuren=="bruin"){
+  mokImage.src="images/mokbruin.jpeg"
+} else if(mokkleuren=="blauw"){
+  mokImage.src="images/mokblauw.jpeg"
+} 
+}
 // voor scrollbaar: js "if scroll etc etc"
 
