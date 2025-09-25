@@ -28,9 +28,11 @@ function openlijst(id_nav) {
 function inverted(){
   const buttontext = document.getElementById("halloweenkleur");
   const Main=document.getElementById("mainback")
+  const geluid=document.getElementById("geluidseffect")
   if(buttontext.innerText == "halloween kleuren"){
     buttontext.innerText = "Normale Kleuren";
-    Main.style.backgroundColor="black";
+    Main.style.backgroundColor="orange";
+    geluid.play();
   } else {
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
