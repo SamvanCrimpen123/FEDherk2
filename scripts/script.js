@@ -75,7 +75,7 @@ function aftrekken(){
 
 function optellen(){
   const plusteken = document.querySelector("main ul:nth-of-type(2) li:nth-of-type(2)").innerText;
-  const aantal = Number(minteken);
+  const aantal = Number(plusteken);
     minteken=String(aantal+1)
   }
 
