@@ -65,7 +65,7 @@ if(mokkleuren=="rood"){
 } 
 }
 
-const navButton = document.querySelector("main");
+
 
 // voor scrollbaar: js "if scroll etc etc"
 
