@@ -41,5 +41,7 @@ function inverted(){
   }
 }
 
+
+
 // voor scrollbaar: js "if scroll etc etc"
 
