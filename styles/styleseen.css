@@ -470,12 +470,15 @@ main section:nth-of-type(4) h1,h2{
 
 main section:nth-of-type(4) ul{
 overflow: auto;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-grid-template-rows: 1fr 1fr;
+white-space:nowrap;
 justify-content: center;
 align-items: center;
 }
+
+main section:nth-of-type(4) ul li{
+	display: inline-block;
+}
+
 
 main section:nth-of-type(4) ul img{
 	width: 80%;
