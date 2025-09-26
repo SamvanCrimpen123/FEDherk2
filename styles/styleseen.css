@@ -73,6 +73,7 @@ main:first-of-type h1{
 	font-family:'bold';
 	padding:40px 24px 0px ;
 	padding-left: 24px;
+
 }
 /* tweede zin */
 main:first-of-type h2 {
@@ -106,7 +107,6 @@ main>ul:first-of-type li img{
 
 main>ul:first-of-type li{
 	border:0.125rem solid var(--color-brown);
-	background-color: transparent;
 	padding: 1em;
 	border-radius: 999rem;
 	margin-bottom: 2em;
@@ -116,6 +116,14 @@ main>ul:first-of-type li{
 	background-color: var(--color-white);
 	justify-content: center;
 }
+
+main>ul:first-of-type li:nth-of-type(1):active{
+	box-shadow:10px 5px brown;
+}
+main>ul:first-of-type li:nth-of-type(2):active{
+	box-shadow:10px 5px brown;
+}
+
 
 main>ul:first-of-type li a{
 	text-decoration: none;
@@ -422,8 +430,8 @@ main section:nth-of-type(3) ul > li:nth-of-type(5){
 }
 
 main section:nth-of-type(3) ul > li img{
-	height:11em;
-	width:11em;
+	height:10em;
+	width:10em;
 	object-fit:cover;
 }
 /* eind scrollbare klikbare dingetjes */
