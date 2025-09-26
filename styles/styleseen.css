@@ -479,10 +479,43 @@ main section:nth-of-type(4) ul li{
 	display: inline-block;
 }
 
-
-main section:nth-of-type(4) ul img{
-	width: 80%;
+main section:nth-of-type(4) ul li:nth-of-type(1) img {
+	position:relative;
+	bottom:9em;
 }
+main section:nth-of-type(4) ul li:nth-of-type(2) img{
+	background-color:black;
+	position:relative;
+	width:50%;
+}
+
+main section:nth-of-type(4) ul li:nth-of-type(3) img{
+	left:-5em;
+	position:relative;
+	bottom:4em;
+	width:40%;
+}
+main section:nth-of-type(4) ul li:nth-of-type(4) img{
+	left:-15em;
+	position:relative;
+	bottom:1em;
+}
+main section:nth-of-type(4) ul li:nth-of-type(5) img{
+	position:relative;
+	width:40%;
+	left:-11em;
+}
+main section:nth-of-type(4) ul li:nth-of-type(6) img{
+	background-color:black;
+	position:relative;
+	width:40%;
+}
+main section:nth-of-type(4) ul li:nth-of-type(7) img{
+	background-color:black;
+	position:relative;
+	width:40%;
+}
+
 
 /* RESPONSIVENESS */
 /* media hier doe je alles mee */
