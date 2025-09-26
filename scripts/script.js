@@ -44,6 +44,8 @@ function inverted(){
     geluid.pause();
     geluid.currentTime=0;
     schudden.classList.toggle("schudden")
+        for(image of schudden){
+    image.classList.toggle("schudden");}
   }
 }
 
