@@ -29,15 +29,18 @@ function inverted(){
   const buttontext = document.getElementById("halloweenkleur");
   const Main=document.getElementById("mainback")
   const geluid=document.getElementById("geluidseffect")
+  const schudden=document.querySelectorAll("img")
   if(buttontext.innerText == "halloween kleuren"){
     buttontext.innerText = "Normale Kleuren";
     Main.style.backgroundColor="orange";
     geluid.play();
+    schudden.classList.toggle("schudden")
   } else {
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
     geluid.pause();
     geluid.currentTime=0;
+    schudden.classList.toggle("schudden")
   }
 }
 
