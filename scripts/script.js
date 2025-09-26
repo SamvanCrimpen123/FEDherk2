@@ -43,7 +43,6 @@ function inverted(){
     Main.style.backgroundColor="#d4ebff"
     geluid.pause();
     geluid.currentTime=0;
-    schudden.classList.toggle("schudden")
         for(image of schudden){
     image.classList.toggle("schudden");}
   }
