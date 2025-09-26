@@ -24,7 +24,7 @@ function openlijst(id_nav) {
   }
 }
 
-
+// classlist. toggle omdat hij in de war raakte bij schudden.toggle. nu staat het op losse elementen
 function inverted(){
   const buttontext = document.getElementById("halloweenkleur");
   const Main=document.getElementById("mainback")
@@ -34,7 +34,10 @@ function inverted(){
     buttontext.innerText = "Normale Kleuren";
     Main.style.backgroundColor="orange";
     geluid.play();
-    schudden.classList.toggle("schudden")
+    for(image of schudden){
+    image.classList.toggle("schudden"); 
+}
+
   } else {
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
