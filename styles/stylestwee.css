@@ -31,6 +31,267 @@
 	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
   }
 
+
+
+ /* pixels weghalen voor toegankelijkheid */
+
+ :root {
+	/* startje */
+	--color-text:#111;
+	--color-background:#d4ebff;
+	--color-darkgrey:#6d6e70;
+	--color-lightgrey:#dbdee3;
+	--color-white:#FFFFFF;
+	--color-brown:#5b1f06;
+	--color-yellow:#ffd200;
+	--color-lightlightgrey:#f3f6fb;
+	--color-blue:#0e74e2;
+	--color-pink:#ffadbf;
+	--color-red:#d70100;
+	--color-green:#73cf11;
+	--color-lilac:#d7a1ff;
+	--color-lime:#dce84f;
+}
+ul{
+	list-style: none;
+}
+a{
+	font-family:'bold';
+	color:brown;
+}
+
+p{
+	font-family:'bold';
+}
+/****************/
+/* JOUW STYLING */
+/****************/
+header {
+	width: 100%;
+	background-color:var(--color-white);
+  }
+
+  header button:nth-of-type(1) {
+	background-color: transparent;
+	border: none;
+	z-index: 1000;
+	position: fixed;
+  }
+
+
+  /* HIER KLOTEN MET GRID  */
+  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
+ /* HIER KLOTEN MET GRID  */
+  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
+  header{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	/* grid-template-areas:
+	"navigatie logo icons"
+	"ontwerp witruimte mix"; */
+
+	}
+  header nav {
+ grid-column:span 1
+  }
+ header > img{
+	 justify-self:center;
+	 align-self:center;
+	 grid-column:span 4;
+ }
+
+
+ header > section ul:nth-of-type(1) {
+	 display:flex;
+	 grid-column:span 1;
+	 /* als ie gek doet haal ul nth of type weg */
+ }
+
+header > nav{
+	grid-column:1;
+}
+
+header>ul:nth-of-type(1){
+	display:flex;
+	grid-column:span 3;
+}
+header>ul:nth-of-type(2){
+	display:flex;
+	grid-column:span 3;
+}
+/*DIT ZIJN DE LAATSTE TWEE IMAGES EN LINKJES IN DE HEADER */
+ header > ul:nth-of-type(1) li:nth-of-type(1) img {
+	 grid-column: span 2;
+	/* background-color: #0e74e2; */
+ }
+header > ul:nth-of-type(1) li:nth-of-type(2) a{
+	text-decoration: none;
+}
+header > ul:nth-of-type(2) li:nth-of-type(1) img{
+	grid-column: span 2;
+}
+
+ header > ul:nth-of-type(2) li:nth-of-type(2) a{
+	text-decoration:none;
+	color:black;
+ }
+
+ header > ul:nth-of-type(2) li:nth-of-type(2){
+grid-column:span 5;
+ }
+
+ 
+  /* ONZICHTBAAR MENU IN DE NAV */
+
+  nav ul:nth-of-type(1){
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	
+}
+
+nav ul:nth-of-type(1) li:nth-of-type(2) img{
+	width:30%;
+}
+nav ul:nth-of-type(1) li:nth-of-type(3) img{
+	width:30%;
+}
+
+nav ul:nth-of-type(1) li:nth-of-type(2){
+	display:flex;
+	justify-content:center;
+	grid-column:span 3;
+}
+
+nav ul:nth-of-type(1) li:nth-of-type(3){
+	display:flex;
+	justify-content:center;
+}
+  header nav section:first-of-type {
+	position:fixed;
+	inset:0;
+	padding-top:2em;
+	width: 80%;
+	transition: transform 0.3s ease;
+	translate:-100% 0;
+	transition:.5s;
+	background-color:var(--color-white);
+	z-index: 300;
+  }
+
+  header nav section:nth-of-type(1) img{
+	width: 2.625em;
+  }
+
+  header nav section:nth-of-type(1) ul li:nth-of-type(1) img{
+	width: 2em;
+  }
+
+  /* open is javascript */
+  header nav  section:nth-of-type(1).open {
+	translate:0 0;
+	z-index: 10000;
+	padding: 0;
+
+  }
+  
+  header nav section:nth-of-type(2) {
+	order: 1;
+}
+
+header > ul img {
+	width: 2em;
+}
+
+header ul:nth-of-type(3){
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	border-radius: 5%;
+}
+
+  header ul:nth-of-type(3) li {
+	background-color: var(--color-lightlightgrey);
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex: 1;
+	padding: 1em;
+	margin: 2em;
+  }
+  
+  header ul:nth-of-type(3) li a {
+	color: white;
+	text-decoration: none;
+	color: var(--color-brown);
+  }
+  
+  header ul:nth-of-type(3) li img {
+	display: inline-block;
+	margin-bottom: 1em;
+  }
+nav ul:nth-of-type(2) a{
+	text-decoration:none;
+	color:brown;
+}
+
+nav ul:nth-of-type(2) li:nth-of-type(1) a{
+	margin-right:11em;
+}
+nav ul:nth-of-type(2) li:nth-of-type(2) a{
+	margin-right:10em;
+}
+nav ul:nth-of-type(2) li:nth-of-type(4) a{
+	margin-right:9em;
+}
+
+nav ul:nth-of-type(2) li:nth-of-type(3) a{
+	margin-right:12em;
+}
+
+nav ul:nth-of-type(4){
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+nav ul:nth-of-type(4) li:nth-of-type(2) img{
+	width:2em;
+}
+nav ul:nth-of-type(4) li:nth-of-type(1) img{
+ width:2em;
+}
+
+
+  header nav section ul:nth-of-type(4) li {
+	padding: 10px;
+	display: inline-block; 
+  }
+  
+  header nav section ul:nth-of-type(4) li a {
+	text-decoration: none;
+	color: var(--color-brown);
+	padding: 10px;
+	display: block;
+  }
+  
+  header nav section ul:nth-of-type(4) li img {
+	margin-right: 8px;
+  }
+
+
+  header ul:nth-of-type(5){
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	border-radius: 5%;
+}
+header ul:nth-of-type(5) li:nth-of-type(3) img{
+	border-radius: 50%;
+}
+
+
 main h1{
 	font-family:semilight;
 	color:black;
