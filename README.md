@@ -108,38 +108,33 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  ik had door mijn minor heel weinig tijd om wat neer te zetten voor deze eerste werkgroep.
+  Na overleg met docent kon ik verder gaan waar ik vorig jaar gebleven was. ik had al een groot deel van mijn html, css en een klein beetje javascript voor het menu in de nav (gedaan dmv codepen opdrachten), maar voor de rest miste er nog erg veel.
 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | sam            | student 2          | student 3    | student 4        |
+  | hoe sta ik er voor?                 | ---          | ---              | 
+  | dit bespreken  |...                 | ...          | ...              |
+  | en dat ook nog | ...                | ...          | ...              |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
-  a11y goede plek om accessibility info te vinden
+  - vergeet alt text niet
+  - images nog goed laten inspringen
+  - zeker al goed op weg
+  - notities herk 1:   a11y goede plek om accessibility info te vinden
   alistapart.com article now you see mee over hoe je dingen kan verbergen
   naar een andere pagina is een link
 aria label voor iets onzichtbaars, bijvoorbeeld specifieke knop (shop now tshirts ipv shop now)
 zorg dat de code is geschreven voor screenreader, tekst bovenaan etc etc
 lijstje met social media is ook een nav 
 mdn is altijd up to date voor html dingen!
-
-
 
 </details>
 
@@ -153,7 +148,7 @@ mdn is altijd up to date voor html dingen!
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  tijdens dit gesprek heb ik vooral met maja gesproken. 
 
 
   ### Agenda voor meeting
