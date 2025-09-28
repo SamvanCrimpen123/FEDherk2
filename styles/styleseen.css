@@ -30,11 +30,6 @@
 	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
   }
 
-
-  
-
-
-
  /* pixels weghalen voor toegankelijkheid */
 
  :root {
@@ -53,6 +48,7 @@
 	--color-green:#73cf11;
 	--color-lilac:#d7a1ff;
 	--color-lime:#dce84f;
+	--color-orange:#FFA500;
 }
 ul{
 	list-style: none;
