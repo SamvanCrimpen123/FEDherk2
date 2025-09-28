@@ -148,26 +148,7 @@ mdn is altijd up to date voor html dingen!
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  tijdens dit gesprek heb ik vooral met maja gesproken. 
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  tijdens dit gesprek heb ik vooral met maja gesproken. ik heb met haar goed kunnen overleggen over hoe ver ik was gekomen, en ik heb met haar gesproken over de buttons op mijn tweede pagina. deze waren toen nog radio buttons, maar heb ik na haar uitleg uiteindelijk veranderd naar buttons. In eerste instantie dacht ik dat ik radio buttons moest gebruiken, maar achteraf bleek dat onhandig en omslachtig omdat de radiobuttons moeilijk vorm te geven waren. door ze buttons te maken werd het ook makkelijker om een interactie toe te voegen.
 
 </details>
 
@@ -195,28 +176,9 @@ mdn is altijd up to date voor html dingen!
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  zet placeholders als images voordat je er daadwerkelijke images in zet? 
-  door flex komt een ul naast elkaar
+  deze week heb ik alles wat nog miste even op een rij gezet, waaronder
+  uitklapbare hamburger menu's, responsiveness van buttons. ook ben ik aan de gang gegaan met het werkend krijgen van de buttons waarmee je 1 of meer producten in je mand stopt. ook heb ik een begin gemaakt aan het toevoegen van een geheime button, die het thema van de website aanpast.hier heb ik later ook een geluid aan toegevoegd, om het meer immersive te maken.
 
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
-
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
