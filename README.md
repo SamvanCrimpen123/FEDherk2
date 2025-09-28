@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   blauw
 
   #### Je focus:
- responsive
+ surface plane
  
 </details>
 
@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -82,7 +82,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 
 
 ## Breakdownschets (week 1)
-<a href="https://miro.com/app/board/uXjVLdggZVo=/?share_link_id=460490364818">miro board link met uitwerkingen 1e pagina</a>
+<a href="https://miro.com/app/board/uXjVLdggZVo=/?share_link_id=460490364818">miro board link met uitwerkingen</a>
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
   De 3e les heb ik bijgewoond zodat ik weer even een opfrisser kreeg over grid. Ik vond dit de voorgaande jaren lastig, dit dit was een waardevolle les om te volgen
@@ -96,9 +96,6 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-    <a href="https://miro.com/app/board/uXjVLdggZVo=/?share_link_id=460490364818">miro board link met uitwekringen 1e pagina</a>
 </details>
 
 
