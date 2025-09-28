@@ -30,10 +30,7 @@
 	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
   }
 
- @font-face{
-	font-family:'cnlight';
-	src: url("../fonts/AllTogetherSerif-CnLight.woff2.woff2");
- }
+
 
  /* pixels weghalen voor toegankelijkheid */
 
@@ -460,7 +457,7 @@ main section:nth-of-type(3) ul > li img{
 main section:nth-of-type(4){
 	background-color: var(--color-lightlightgrey);
 }
-main section:nth-of-type(4) h1,h2{
+main section:nth-of-type(4) h1 h2{
 	text-align: left;
 	font-size: 32px;
 	color: var(--color-brown);
@@ -506,12 +503,10 @@ main section:nth-of-type(4) ul li:nth-of-type(5) img{
 	left:-11em;
 }
 main section:nth-of-type(4) ul li:nth-of-type(6) img{
-	background-color:black;
 	position:relative;
 	width:40%;
 }
 main section:nth-of-type(4) ul li:nth-of-type(7) img{
-	background-color:black;
 	position:relative;
 	width:40%;
 }
