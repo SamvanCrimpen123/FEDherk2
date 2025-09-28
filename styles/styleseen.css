@@ -143,7 +143,7 @@ main>ul:first-of-type li:nth-of-type(2):active{
 main>ul:first-of-type li a{
 	text-decoration: none;
 	color: var(--color-brown);
-	font-family: 'cnlight';
+	font-family: 'bold';
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.25;
