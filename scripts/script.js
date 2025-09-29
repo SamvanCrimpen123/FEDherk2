@@ -29,12 +29,16 @@ function inverted(){
   const buttontext = document.getElementById("halloweenkleur");
   const Main=document.querySelector("main")
   const footer=document.querySelector("footer")
+  const section=document.querySelectorAll("section")
   const geluid=document.getElementById("geluidseffect")
   const schudden=document.querySelectorAll("img")
   if(buttontext.innerText == "halloween kleuren"){
     buttontext.innerText = "Normale Kleuren";
     Main.style.backgroundColor="orange";
     footer.style.backgroundColor="orange";
+    for(groep of section){
+      groep.style.backgroundColor="orange"
+    }
     geluid.play();
     for(image of schudden){
     image.classList.toggle("schudden"); 
@@ -44,6 +48,9 @@ function inverted(){
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
     footer.style.backgroundColor="#f3f6fb"
+     for(groep of section){
+      groep.style.backgroundColor="#f3f6fb"
+    }
     geluid.pause();
     geluid.currentTime=0;
         for(image of schudden){
