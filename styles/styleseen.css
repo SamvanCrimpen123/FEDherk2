@@ -309,7 +309,7 @@ main{
 
 /* eerste zin */
 /* https://www.w3schools.com/cssref/pr_text_text-align.php */
-main:first-of-type h1{
+main h1{
 	text-align: left;
 	margin-top: 3em;
 	font-size: 14px;
@@ -320,7 +320,7 @@ main:first-of-type h1{
 
 }
 /* tweede zin */
-main:first-of-type h2 {
+main h2 {
 	text-align: left;
 	font-size: 32px;
 	color: var(--color-brown);

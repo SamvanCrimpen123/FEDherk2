@@ -319,6 +319,10 @@ header ul:nth-of-type(5) li:nth-of-type(3) img{
 
 
 /* FOOTER */
+footer h1,h2{
+	font-family:'bold';
+	color:var(--color-brown);
+}
 footer{
 background-color: var(--color-lightlightgrey);
 overflow: hidden;
