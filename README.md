@@ -45,7 +45,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
-  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdownscherm2.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -77,6 +77,7 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 "item heeft geen eigen functie"
 
 
+
 </details>
 
 
@@ -90,11 +91,14 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
   in flexbox is het 1 dimentionaal, grid is 3dimentionaal. 
   deze les heb ik besteed aan het in ene grid plaatsen van mijn header en het verduidelijken van mijn eigen code zodat ik makkelijker en sneller kan werken. 
 
-  ### de hele pagina: 
-  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/menu.jpg" width="375px" alt="breakdown van een dynamisch deel">
+ #### Screenshot(s) van de eerste pagina (small screen): 
+  main pagina
+  <img src="readme-images/breakdownschets1.jpg" width="375px" alt="omschrijving van de pagina">
+
+  #### Screenshot(s) van de tweede pagina (small screen):
+  hier de naam van de pagina  
+  <img src="readme-images/breakdownscherm2.jpg" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
@@ -109,8 +113,9 @@ je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu 
 
   ### Stand van zaken
   Na overleg met docent kon ik verder gaan waar ik vorig jaar gebleven was. ik had al een groot deel van mijn html, css en een klein beetje javascript voor het menu in de nav (gedaan dmv codepen opdrachten), maar voor de rest miste er nog erg veel.
+  ik heb helaas niet opgeslagen hoe het er toendertijd uit zag, alleen deze van de header. ik wist niet hoe grid werkte.
 
-
+<img src="readme-images/headerleftoff.jpg" width="375px" alt="mislukte header">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -162,7 +167,8 @@ mdn is altijd up to date voor html dingen!
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+ screenreader op de 1e pagina werkt vooral goed als je het menu open hebt geklapt. er missen nog wat alt teksten. 2e pagina werkt een stuk beter, maar is lastig te navigeren omdat er veel visueel is.
+ <img src="readme-images/screenreaderafb.jpg" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
@@ -178,8 +184,6 @@ mdn is altijd up to date voor html dingen!
   ### Stand van zaken
   deze week heb ik alles wat nog miste even op een rij gezet, waaronder
   uitklapbare hamburger menu's, responsiveness van buttons. ook ben ik aan de gang gegaan met het werkend krijgen van de buttons waarmee je 1 of meer producten in je mand stopt. ook heb ik een begin gemaakt aan het toevoegen van een geheime button, die het thema van de website aanpast.hier heb ik later ook een geluid aan toegevoegd, om het meer immersive te maken.
-
-
 </details>
 
 
@@ -196,24 +200,16 @@ mdn is altijd up to date voor html dingen!
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Eigenlijk heb ik in een hele korte tijd een heleboel uitgevogeld. ik snap er nog steeds niet megaveel van, maar ik ben in ieder geval trots op hoe ver ik tot nu toe ben gekomen. ik heb geleerd hoe ik dingen beter kan opzoeken, en om door te zetten als iets niet meteen lukt. 
-  ik had vorig jaar een irrationele angst voor het vak opgebouwd, naast dat ik niet lekker in mijn vel zat en daardoor geen energie in het vak kon steken.
-  dit jaar deed ik dit vak tegelijk met mijn minor, wat ook veel energie kostte. 
-  uiteindelijk heb ik in de vakantie voor de deadline heel veel wek kunnen verzetten en heb ik er veel uren ingestopt, hier ben ik ook trots op.
-
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+In een notendop heb ik vooral geleerd om door te zetten, en door te zoeken als iets niet meteen lukt. ik begrijp grid een stuk beter, en ik snap veel meer wat er staat als ik naar code kijk of het zelf moet maken. 
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+het bewegende menu was te ingewikkeld om uit te vogelen. alle fonts precies zo krijgen als op de website werd ook erg lastig, omdat de fonts in eht pakket wat ik gedownload had niet overeen kwamen met alles op de site en ik de rest niet goed kon vinden.
+ik vond vooral alles goed krijgen in javascript en css lastig.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/bewegendmenu.jpg" width="375px" alt="bewegendmenu img">
+
 </details>
-
-
-
-
 
 ## Bronnenlijst
 
@@ -224,8 +220,12 @@ mdn is altijd up to date voor html dingen!
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. Laura en Diya
+  1. Wessel (a.k.a mijn tweede brein, coding wizard die het hoofd koel houdt)
   2. https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
   3. https://developer.mozilla.org/en-US/docs/Web/CSS/border-top-left-radius
-  4. 
+  4. https://developer.mozilla.org/en-US/docs/Web/CSS/:active
+  5.https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText
+  6.https://stackoverflow.com/questions/11722400/programmatically-change-the-src-of-an-img-tag
+  7.https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_audio_play
+  8.
 </details>
