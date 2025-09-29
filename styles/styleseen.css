@@ -701,6 +701,14 @@ main section:nth-of-type(3) ul > li img{
 main section:nth-of-type(4){
 	background-color: var(--color-white);
 }
+
+main section:nth-of-type(4) p:nth-of-type(2){
+	font-size:2em;
+	align-self:center;
+	position:relative;
+	left:3em;
+}
+
 main section:nth-of-type(3) ::-webkit-scrollbar{
 	display: none;
 }
