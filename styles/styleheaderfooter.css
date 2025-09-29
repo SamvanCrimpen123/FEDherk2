@@ -383,10 +383,7 @@ footer > ul:nth-of-type(3) img{
     display:flex;
 }
 
-footer > ul:nth-of-type(2){
-background-color: var(--color-background);
 
-}
 
 footer > ul:nth-of-type(3) img{
     height:2em
