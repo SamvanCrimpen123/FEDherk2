@@ -430,9 +430,6 @@ footer a{
 	color:black;
 }
 
-footer > ul:nth-of-type(4){
-    background-color:var(--color-lightgrey);
-}
 
 footer > ul:nth-of-type(4) li img{
 	height:1em;
