@@ -676,7 +676,7 @@ main section:nth-of-type(3) ul > li img{
 
 /* section 4 */
 main section:nth-of-type(4){
-	background-color: var(--color-lightlightgrey);
+	background-color: var(--color-white);
 }
 main section:nth-of-type(3) ::-webkit-scrollbar{
 	display: none;
@@ -705,6 +705,9 @@ main section:nth-of-type(4) ul li:nth-of-type(2) img{
 	background-color:var(--color-text);
 	position:relative;
 	width:50%;
+	border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
+    border: 0.20rem solid var(--color-orange);
 }
 
 main section:nth-of-type(4) ul li:nth-of-type(3) img{
@@ -712,6 +715,8 @@ main section:nth-of-type(4) ul li:nth-of-type(3) img{
 	position:relative;
 	bottom:4em;
 	width:40%;
+	border-radius:50%;
+    border: 0.20rem solid var(--color-orange);
 }
 main section:nth-of-type(4) ul li:nth-of-type(4) img{
 	left:-15em;
@@ -723,6 +728,9 @@ main section:nth-of-type(4) ul li:nth-of-type(5) img{
 	width:40%;
 	left:-15em;
 	right:1em;
+	border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
+    border: 0.20rem solid var(--color-orange);
 }
 main section:nth-of-type(4) ul li:nth-of-type(6) img{
 	position:relative;
@@ -735,6 +743,9 @@ main section:nth-of-type(4) ul li:nth-of-type(7) img{
 	width:80%;
 	bottom:1em;
 	left:-21em;
+	border-top-left-radius: 20em;
+    border-top-right-radius: 20em;
+    border: 0.20rem solid var(--color-orange);
 }
 main section:nth-of-type(4) ul li:nth-of-type(8) img{
 	position:relative;
