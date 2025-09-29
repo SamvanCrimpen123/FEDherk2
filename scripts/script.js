@@ -43,7 +43,7 @@ function inverted(){
   } else {
     buttontext.innerText = "halloween kleuren";
     Main.style.backgroundColor="#d4ebff"
-    footer.style.backgroundColor="#d4ebff"
+    footer.style.backgroundColor="#dbdee3"
     geluid.pause();
     geluid.currentTime=0;
         for(image of schudden){
