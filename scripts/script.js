@@ -27,12 +27,14 @@ function openlijst(id_nav) {
 // classlist. toggle omdat hij in de war raakte bij schudden.toggle. nu staat het op losse elementen
 function inverted(){
   const buttontext = document.getElementById("halloweenkleur");
-  const Main=document.getElementById("mainback")
+  const Main=document.querySelector("main")
+  const footer=document.querySelector("footer")
   const geluid=document.getElementById("geluidseffect")
   const schudden=document.querySelectorAll("img")
   if(buttontext.innerText == "halloween kleuren"){
     buttontext.innerText = "Normale Kleuren";
     Main.style.backgroundColor="orange";
+    footer.style.backgroundColor="orange";
     geluid.play();
     for(image of schudden){
     image.classList.toggle("schudden"); 
