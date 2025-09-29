@@ -11,6 +11,39 @@
 	font-weight: 400;
   }
 
+@font-face {
+	font-family: 'regular';
+	src: url("../fonts/AllTogetherSans-Regular.woff2");
+	font-weight: 400;
+  }
+
+  @font-face {
+	font-family: 'wideblck';
+	src: url("../fonts/AllTogetherSerif-WideBlk.woff2");
+  }
+
+  @font-face{
+	font-family: 'bold';
+	src:url("../fonts/AllTogetherSans-Bold.woff2");
+  }
+
+  @font-face{
+	font-family:'regular';
+	src:url("../fonts/AllTogetherSans-Regular.woff2");
+  }
+
+  @font-face{
+	font-family:'semilight';
+	src:url("../fonts/AllTogetherSans-SemiLight.woff2");
+  }
+
+
+  @font-face{
+	font-family:'cnbold';
+	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
+  }
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
