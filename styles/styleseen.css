@@ -617,6 +617,7 @@ main section:nth-of-type(3) ul{
 
 main section:nth-of-type(3) ul li{
 	display: inline-block;
+	margin-right:1em;
 }
 
 main section:nth-of-type(3) ::-webkit-scrollbar{
@@ -689,10 +690,7 @@ main section:nth-of-type(4) h1 h2{
 }
 
 main section:nth-of-type(4) ul{
-overflow: auto;
-white-space:nowrap;
-justify-content: center;
-align-items: center;
+	overflow: auto;white-space:nowrap;/* justify-content: center; *//* align-items: center; */
 }
 
 main section:nth-of-type(4) ul li{
@@ -723,15 +721,26 @@ main section:nth-of-type(4) ul li:nth-of-type(4) img{
 main section:nth-of-type(4) ul li:nth-of-type(5) img{
 	position:relative;
 	width:40%;
-	left:-11em;
+	left:-15em;
+	right:1em;
 }
 main section:nth-of-type(4) ul li:nth-of-type(6) img{
 	position:relative;
-	width:40%;
+	width:80%;
+	bottom:6em;
+	left:-21em;
 }
 main section:nth-of-type(4) ul li:nth-of-type(7) img{
 	position:relative;
-	width:40%;
+	width:80%;
+	bottom:1em;
+	left:-21em;
+}
+main section:nth-of-type(4) ul li:nth-of-type(8) img{
+	position:relative;
+	width:80%;
+	bottom:1em;
+	left:-21em;
 }
 
 
