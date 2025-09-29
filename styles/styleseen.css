@@ -55,11 +55,12 @@ ul{
 }
 a{
 	font-family:'bold';
-	color:brown;
+	color:var(--color-brown);
 }
 
 p{
 	font-family:'bold';
+	color: var(--color-brown);
 }
 /****************/
 /* JOUW STYLING */
@@ -76,19 +77,12 @@ header {
 	position: fixed;
   }
 
-
-  /* HIER KLOTEN MET GRID  */
-  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
- /* HIER KLOTEN MET GRID  */
   /* fr gebruik je bij grid, colums horizontaal, row verticaal */
   header{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	/* grid-template-areas:
-	"navigatie logo icons"
-	"ontwerp witruimte mix"; */
-
 	}
+
   header nav {
  grid-column:span 1
   }
@@ -102,7 +96,6 @@ header {
  header > section ul:nth-of-type(1) {
 	 display:flex;
 	 grid-column:span 1;
-	 /* als ie gek doet haal ul nth of type weg */
  }
 
 header > nav{
@@ -120,7 +113,6 @@ header>ul:nth-of-type(2){
 /*DIT ZIJN DE LAATSTE TWEE IMAGES EN LINKJES IN DE HEADER */
  header > ul:nth-of-type(1) li:nth-of-type(1) img {
 	 grid-column: span 2;
-	/* background-color: #0e74e2; */
  }
 header > ul:nth-of-type(1) li:nth-of-type(2) a{
 	text-decoration: none;
@@ -131,7 +123,6 @@ header > ul:nth-of-type(2) li:nth-of-type(1) img{
 
  header > ul:nth-of-type(2) li:nth-of-type(2) a{
 	text-decoration:none;
-	color:black;
  }
 
  header > ul:nth-of-type(2) li:nth-of-type(2){
@@ -144,7 +135,6 @@ grid-column:span 5;
   nav ul:nth-of-type(1){
 	display:grid;
 	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
-	
 }
 
 nav ul:nth-of-type(1) li:nth-of-type(2) img{
@@ -222,7 +212,7 @@ header ul:nth-of-type(3){
   }
   
   header ul:nth-of-type(3) li a {
-	color: white;
+	color:var(--color-white);
 	text-decoration: none;
 	color: var(--color-brown);
   }
@@ -233,7 +223,7 @@ header ul:nth-of-type(3){
   }
 nav ul:nth-of-type(2) a{
 	text-decoration:none;
-	color:brown;
+	color:var(--color-brown);
 }
 
 nav ul:nth-of-type(2) li:nth-of-type(1) a{
@@ -369,10 +359,10 @@ main>ul:first-of-type li{
 }
 
 main>ul:first-of-type li:nth-of-type(1):active{
-	box-shadow:10px 5px brown;
+	box-shadow:10px 5px var(--color-brown);
 }
 main>ul:first-of-type li:nth-of-type(2):active{
-	box-shadow:10px 5px brown;
+	box-shadow:10px 5px var(--color-brown);
 }
 
 
@@ -383,11 +373,9 @@ main>ul:first-of-type li a{
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 1.25;
-	/* fontfamily toevoegen */
 	display: block; /* zo is het hele gebied klikbaar */
 	margin-left: 1em;
 	margin-right: 1em;
-
 }
 /* eind buttons in main */
 
@@ -468,7 +456,7 @@ main section:nth-of-type(1) li:nth-of-type(4) {
 
 main section:nth-of-type(1) li:nth-of-type(4) a{
 	border-style:solid;
-	border-color:white;
+	border-color:var(--color-white);
 	border-radius:1em;
 	padding:.20em;
 }
@@ -633,10 +621,10 @@ main section:nth-of-type(3) ::-webkit-scrollbar{
 	height: 5px;
 }
 main section:nth-of-type(3) ::-webkit-scrollbar-track{
-	background: lightgrey;
+	background:var(--color-lightgrey);
 }
 main section:nth-of-type(3) ::-webkit-scrollbar-thumb{
-	background: grey;
+	background:var(--color-darkgrey);
 }
 
 main section:nth-of-type(3) ul > li img{
@@ -717,7 +705,7 @@ main section:nth-of-type(4) ul li:nth-of-type(1) img {
 	bottom:9em;
 }
 main section:nth-of-type(4) ul li:nth-of-type(2) img{
-	background-color:black;
+	background-color:var(--color-text);
 	position:relative;
 	width:50%;
 }
@@ -915,7 +903,5 @@ main section:nth-of-type(4) ul li:nth-of-type(7) img{
 	}
 
 		
-
-		/* GEBRUIK GRID OM HET ER GOED UIT TE LATEN ZIEN  */
 		
 		}

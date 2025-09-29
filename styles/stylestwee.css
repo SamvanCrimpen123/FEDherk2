@@ -59,11 +59,12 @@ ul{
 }
 a{
 	font-family:'bold';
-	color:brown;
+	color:var(--color-brown);
 }
 
 p{
 	font-family:'bold';
+	color: var(--color-brown);
 }
 /****************/
 /* JOUW STYLING */
@@ -88,10 +89,6 @@ header {
   header{
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-	/* grid-template-areas:
-	"navigatie logo icons"
-	"ontwerp witruimte mix"; */
-
 	}
   header nav {
  grid-column:span 1
@@ -106,7 +103,6 @@ header {
  header > section ul:nth-of-type(1) {
 	 display:flex;
 	 grid-column:span 1;
-	 /* als ie gek doet haal ul nth of type weg */
  }
 
 header > nav{
@@ -124,7 +120,6 @@ header>ul:nth-of-type(2){
 /*DIT ZIJN DE LAATSTE TWEE IMAGES EN LINKJES IN DE HEADER */
  header > ul:nth-of-type(1) li:nth-of-type(1) img {
 	 grid-column: span 2;
-	/* background-color: #0e74e2; */
  }
 header > ul:nth-of-type(1) li:nth-of-type(2) a{
 	text-decoration: none;
@@ -135,7 +130,6 @@ header > ul:nth-of-type(2) li:nth-of-type(1) img{
 
  header > ul:nth-of-type(2) li:nth-of-type(2) a{
 	text-decoration:none;
-	color:black;
  }
 
  header > ul:nth-of-type(2) li:nth-of-type(2){
@@ -226,7 +220,7 @@ header ul:nth-of-type(3){
   }
   
   header ul:nth-of-type(3) li a {
-	color: white;
+	color:var(--color-white);
 	text-decoration: none;
 	color: var(--color-brown);
   }
@@ -237,7 +231,7 @@ header ul:nth-of-type(3){
   }
 nav ul:nth-of-type(2) a{
 	text-decoration:none;
-	color:brown;
+	color:var(--color-brown);
 }
 
 nav ul:nth-of-type(2) li:nth-of-type(1) a{
@@ -296,17 +290,17 @@ header ul:nth-of-type(5) li:nth-of-type(3) img{
 
 main h1{
 	font-family:semilight;
-	color:black;
+	color:var(--color-text);
 	font-size:10px;
 }
 main h2{
 		font-family:bold;
-	color:brown;
+	color:var(--color-brown);
 }
 
 main a{
 	font-family:'bold';
-	color:brown;
+	color:var(--color-brown);
 }
 
 main p{
@@ -402,22 +396,22 @@ main ul:nth-of-type(1) button{
 
 
 main ul:nth-of-type(1) li:nth-of-type(1) button{
-	background-color:red;
+	background-color:var(--color-red);
 }
 main ul:nth-of-type(1) li:nth-of-type(2) button{
-	background-color:yellow;
+	background-color:var(--color-yellow);
 }
 main ul:nth-of-type(1) li:nth-of-type(3) button{
-	background-color:green;
+	background-color:var(--color-green);
 }
 main ul:nth-of-type(1) li:nth-of-type(4) button{
-	background-color:orange;
+	background-color:var(--color-orange);
 }
 main ul:nth-of-type(1) li:nth-of-type(5) button{
-	background-color:brown;
+	background-color:var(--color-brown);
 }
 main ul:nth-of-type(1) li:nth-of-type(6) button{
-	background-color:blue;
+	background-color:var(--color-blue);
 }
 
 #omschrijving{
