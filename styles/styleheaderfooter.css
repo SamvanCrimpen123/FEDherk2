@@ -372,9 +372,7 @@ footer ul img {
 
 /* over ons linkjes etc etc tot over ons */
 /* HOE KRIJG IK DEZE UITKLAPBAAR ZOALS EHT ORIGINEEL */
-footer > ul:nth-of-type(2){
-background-color: var(--color-background);
-}
+
 footer > ul:nth-of-type(2) a{
 text-decoration: none;
 color: var(--color-brown);
