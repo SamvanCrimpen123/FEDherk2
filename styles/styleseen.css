@@ -50,6 +50,11 @@
 	--color-lime:#dce84f;
 	--color-orange:#FFA500;
 }
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
 ul{
 	list-style: none;
 }
@@ -62,9 +67,7 @@ p{
 	font-family:'bold';
 	color: var(--color-brown);
 }
-/****************/
-/* JOUW STYLING */
-/****************/
+
 header {
 	width: 100%;
 	background-color:var(--color-white);

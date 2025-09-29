@@ -49,7 +49,12 @@ ul{
 }
 a{
 	font-family:'bold';
-	color:brown;
+	color:var(--color-brown);
+}
+
+p{
+	font-family:'bold';
+	color: var(--color-brown);
 }
 
 /****************/
