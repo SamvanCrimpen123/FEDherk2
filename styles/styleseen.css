@@ -581,3 +581,29 @@ main section:nth-of-type(4) ul li:nth-of-type(8) img{
 }
 
 
+main section:nth-of-type(5){
+	background-color:white;
+	align-items:center;
+	justify-content:center;
+}
+
+main section:nth-of-type(5) img{
+	height:25em;
+}
+
+main section:nth-of-type(5) ul{
+	overflow: auto;
+	white-space: nowrap;
+	scroll-snap-type:x mandatory;
+}
+
+main section:nth-of-type(5) ul li{
+	display: inline-block;
+	margin-right:1em;
+	justify-content:space-between;
+}
+
+main section:nth-of-type(5) ul li p,h3{
+	display:flex;
+	justify-content:center;
+}
