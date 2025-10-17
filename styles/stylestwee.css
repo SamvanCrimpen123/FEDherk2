@@ -1,76 +1,7 @@
-
-@font-face {
-	font-family: 'regular';
-	src: url("../fonts/AllTogetherSans-Regular.woff2");
-	font-weight: 400;
-  }
-
-  @font-face {
-	font-family: 'wideblck';
-	src: url("../fonts/AllTogetherSerif-WideBlk.woff2");
-  }
-
-  @font-face{
-	font-family: 'bold';
-	src:url("../fonts/AllTogetherSans-Bold.woff2");
-  }
-
-  @font-face{
-	font-family:'regular';
-	src:url("../fonts/AllTogetherSans-Regular.woff2");
-  }
-
-  @font-face{
-	font-family:'semilight';
-	src:url("../fonts/AllTogetherSans-SemiLight.woff2");
-  }
-
-
-  @font-face{
-	font-family:'cnbold';
-	src:url("../fonts/AllTogetherSerif-CnBold.woff2");
-  }
-
-  
-
-
- /* pixels weghalen voor toegankelijkheid */
-
- :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#d4ebff;
-	--color-darkgrey:#6d6e70;
-	--color-lightgrey:#dbdee3;
-	--color-white:#FFFFFF;
-	--color-brown:#5b1f06;
-	--color-yellow:#ffd200;
-	--color-lightlightgrey:#f3f6fb;
-	--color-blue:#0e74e2;
-	--color-pink:#ffadbf;
-	--color-red:#d70100;
-	--color-green:#73cf11;
-	--color-lilac:#d7a1ff;
-	--color-lime:#dce84f;
-	--color-orange:#FFA500;
-}
-
 /****************/
 /* JOUW STYLING */
 /****************/
 
-ul{
-	list-style: none;
-}
-a{
-	font-family:'bold';
-	color:var(--color-brown);
-}
-
-p{
-	font-family:'bold';
-	color: var(--color-brown);
-}
 
 header {
 	width: 100%;
