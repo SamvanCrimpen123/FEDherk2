@@ -35,8 +35,8 @@ main h1{
 	font-size: 14px;
 	color: var(--color-brown);
 	font-family:'bold';
-	padding:40px 24px 0px ;
-	padding-left: 24px;
+	padding:2.5em 1.5em 0em ;
+	padding-left: 1.5em;
 
 }
 /* tweede zin */
@@ -45,7 +45,7 @@ main h2 {
 	font-size: 32px;
 	color: var(--color-brown);
 	font-family: 'bold';
-	padding-left:24px ;
+	padding-left:1.5em ;
 }
 /* eind eerste twee zinnen */
 
@@ -59,7 +59,7 @@ main h3{
 main>ul:first-of-type{
 	list-style: none;
 	padding: 0;
-	margin-top: 2rem;
+	margin-top: 125em;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 }
@@ -75,7 +75,7 @@ main>ul:first-of-type li{
 	border-radius: 999rem;
 	margin-bottom: 2em;
 	text-align: center;
-	font-size: 1rem;
+	font-size: 16px;
 	display: flex;
 	background-color: var(--color-white);
 	justify-content: center;
@@ -446,7 +446,7 @@ main section:nth-of-type(4) h1 h2{
 	font-size: 32px;
 	color: var(--color-brown);
 	font-family: 'bold';
-	padding-left:24px ;
+	padding-left:1.5em ;
 }
 
 main section:nth-of-type(4) ul{
