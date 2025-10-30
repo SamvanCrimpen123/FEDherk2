@@ -45,7 +45,7 @@ main h2 {
 	font-size: 32px;
 	color: var(--color-brown);
 	font-family: 'bold';
-	padding-left:1.5em ;
+	margin-left:.5em;
 }
 /* eind eerste twee zinnen */
 
@@ -59,7 +59,6 @@ main h3{
 main>ul:first-of-type{
 	list-style: none;
 	padding: 0;
-	margin-top: 125em;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
 }
@@ -253,6 +252,7 @@ main > ul:nth-of-type(3){
 	font-family: 'wideblck';
 	font-weight: 300;
 	font-size: 16px;
+	margin-left: -2.5em;
 }
 /* eind bewegend element */
 
