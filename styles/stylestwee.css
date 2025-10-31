@@ -251,7 +251,7 @@ main section :nth-of-type(1){
     display: flex;
 }
 
-main img{
+main > img{
 width: 100%;
 }
 main ul:nth-of-type(2) img{
@@ -375,29 +375,31 @@ label{
 	color:var(--color-brown);
 }
 
-main section:nth-of-type(5){
-	background-color:white;
-	align-items:center;
-	justify-content:center;
+main section:nth-of-type(1) {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 }
 
-main section img{
-	height:25em;
+main section:nth-of-type(1) ul {
+  overflow: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
 }
 
-main section ul{
-	overflow: auto;
-	white-space: nowrap;
-	scroll-snap-type:x mandatory;
+main section:nth-of-type(1) ul li {
+  display: inline-block;
+  margin-right: 1em;
+  justify-content: space-between;
 }
 
-main section ul li{
-	display: inline-block;
-	margin-right:1em;
-	justify-content:space-between;
+main section:nth-of-type(1) ul li p,
+main section:nth-of-type(1) ul li h3 {
+  display: flex;
+  justify-content: center;
 }
 
-main section ul li p,h3{
-	display:flex;
-	justify-content:center;
+main section:nth-of-type(1) img{
+	height:50%;
 }
+
