@@ -1,29 +1,29 @@
 
 @font-face {
-	font-family: "fontsans";
+	font-family:'fontsans';
 	src: url("../font/AllTogetherSans-Regular.woff2");
 	font-weight: 400;
   }
 
   @font-face {
-	font-family: "header";
+	font-family:'header';
 	src: url("../font/AllTogetherSerif-WideBlk.woff2");
 	font-weight: 400;
   }
 
 @font-face {
-	font-family: 'regular';
+	font-family:'regular';
 	src: url("../fonts/AllTogetherSans-Regular.woff2");
 	font-weight: 400;
   }
 
   @font-face {
-	font-family: 'wideblck';
+	font-family:'wideblck';
 	src: url("../fonts/AllTogetherSerif-WideBlk.woff2");
   }
 
   @font-face{
-	font-family: 'bold';
+	font-family:'bold';
 	src:url("../fonts/AllTogetherSans-Bold.woff2");
   }
 
@@ -86,7 +86,7 @@ a{
 }
 
 p{
-	font-family:'regular';
+	font-family:'cnbold';
 	color: var(--color-text);
 }
 
