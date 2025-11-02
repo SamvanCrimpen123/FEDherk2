@@ -349,10 +349,10 @@ main section:nth-of-type(2) h2{
 }
 
 main section:nth-of-type(2) p{
-	font-family: 'semilight';
+	font-family: 'fontsans';
 	color: var(--color-brown);
 	text-align: center;
-	font-size: 14px;
+	font-size: 25px;
 }
 
 main section:nth-of-type(2) img{
