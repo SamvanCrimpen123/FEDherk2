@@ -114,6 +114,20 @@ main>img:first-of-type{
 /* eind eerste image in main */
 
 /* Gekleurde buttons met img en tekst: */
+main section:nth-of-type(1) li:nth-of-type(1) h2,
+main section:nth-of-type(1) li:nth-of-type(1) h3,
+main section:nth-of-type(1) li:nth-of-type(1) a{
+	color:var(--color-white);
+}
+main section:nth-of-type(1) li:nth-of-type(2) h2,
+main section:nth-of-type(1) li:nth-of-type(3) h2,
+main section:nth-of-type(1) li:nth-of-type(2) h3,
+main section:nth-of-type(1) li:nth-of-type(3) h3,
+main section:nth-of-type(1) li:nth-of-type(3) a,
+main section:nth-of-type(1) li:nth-of-type(2) a{
+	color:var(--color-text);
+}
+
 main section:nth-of-type(1) li:nth-of-type(1),
 main section:nth-of-type(1) li:nth-of-type(2),
 main section:nth-of-type(1) li:nth-of-type(3) {
@@ -254,6 +268,24 @@ main > ul:nth-of-type(3){
 	font-size: 16px;
 	margin-left: -2.5em;
 }
+
+ul:nth-of-type(2) li:nth-child(2) p,
+ul:nth-of-type(3) li:nth-child(2) p{
+	color:var(--color-green)
+}
+ul:nth-of-type(2) li:nth-child(4) p,
+ul:nth-of-type(3) li:nth-child(4) p{
+	color:var(--color-brown)
+}
+ul:nth-of-type(2) li:nth-child(6) p,
+ul:nth-of-type(3) li:nth-child(6) p{
+	color:var(--color-yellow)
+}
+ul:nth-of-type(2) li:nth-child(8) p,
+ul:nth-of-type(3) li:nth-child(8) p{
+  color: var(--color-blue)
+}
+
 /* eind bewegend element */
 
 

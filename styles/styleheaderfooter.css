@@ -81,13 +81,13 @@ ul{
 	list-style: none;
 }
 a{
-	font-family:'bold';
+	font-family:'cnbold';
 	color:var(--color-brown);
 }
 
 p{
-	font-family:'bold';
-	color: var(--color-brown);
+	font-family:'regular';
+	color: var(--color-text);
 }
 
 /****************/
