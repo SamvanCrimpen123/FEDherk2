@@ -364,21 +364,22 @@ main section:nth-of-type(2) img{
 /* eind 2E SECTION MAIN gele boog over ons */
 
 /* 3E SECTION MAIN happy family met boog en caroussel */
-main section:nth-of-type(3) p{
-font-family:'regular';
-color: var(--color-brown);
+main section:nth-of-type(3)>p:nth-of-type(1){
+	font-family:'regular';
 }
 
 main section:nth-of-type(3) a{
-	font-family:'regular';
+	font-family:'bold';
 	color: var(--color-brown);
-	text-decoration: none;
-	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: var(--color-yellow);
+	text-underline-offset: .25em;
 }
 
 
 main section:nth-of-type(3){
 background-color: var(--color-white);
+padding-top: 3em;
 }
 
 
@@ -455,17 +456,31 @@ main section:nth-of-type(3) ul > li img{
 	width:10em;
 	object-fit:cover;
 }
+
+main section:nth-of-type(3) ul > li p{
+	padding-left:2em;
+}
 /* eind scrollbare klikbare dingetjes */
 /* eind 3E SECTION MAIN happy family met boog en caroussel */
 
 
 /* section 4 */
+main section:nth-of-type(4) h2{
+	color:var(--color-text);
+}
 main section:nth-of-type(4){
 	background-color: var(--color-white);
 	margin-top:-2em;
 	padding-top:1em;
 	margin-bottom:-2em;
 	padding-bottom:1em;
+}
+main section:nth-of-type(4) h2,
+main section:nth-of-type(4) p:nth-of-type(1){
+	text-align:center;
+}
+main section:nth-of-type(4) p:nth-of-type(1){
+	font-family:'semilight';
 }
 
 main section:nth-of-type(4) p:nth-of-type(2){
@@ -556,6 +571,20 @@ main section:nth-of-type(4) ul li:nth-of-type(8) img{
 	left:-21em;
 }
 
+main section:nth-of-type(5) p:nth-of-type(1){
+	font-family:semilight;
+	text-align:center;
+}
+main section:nth-of-type(5) h2{
+	text-align:center;
+	font-size:2em;
+}
+main section:nth-of-type(5) h3{
+	font-family:'semilight';
+	text-align:center;
+	font-size:1em;
+	color:var(--color-text);
+}
 
 main section:nth-of-type(5){
 	background-color:white;

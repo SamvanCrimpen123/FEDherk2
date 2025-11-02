@@ -1,13 +1,13 @@
 
 @font-face {
 	font-family:'fontsans';
-	src: url("../font/AllTogetherSans-Regular.woff2");
+	src: url("../fonts/AllTogetherSans-Regular.woff2");
 	font-weight: 400;
   }
 
   @font-face {
 	font-family:'header';
-	src: url("../font/AllTogetherSerif-WideBlk.woff2");
+	src: url("../fonts/AllTogetherSerif-WideBlk.woff2");
 	font-weight: 400;
   }
 
