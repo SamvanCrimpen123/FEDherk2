@@ -351,24 +351,22 @@ background-color: var(--color-lightlightgrey);
 overflow: hidden;
 }
 
+footer> p{
+	font-family:semilight;
+	font-size:.8em;
+}
+
 footer> img:nth-of-type(1){
-	width: 97%;
+	width: 100%;
 	background-color: var(--color-yellow);
 	padding: 3em;
 }
 
 footer > ul:nth-of-type(1){
 display: inline grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 24% 1fr;
 grid-template-rows:1fr 1fr ;
 gap: 1em;
-}
-
-footer > ul:nth-of-type(1) li{
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
 }
 
 footer > ul:nth-of-type(1) li:nth-of-type(1) {
@@ -380,13 +378,33 @@ footer > ul:nth-of-type(1) li:nth-of-type(2) {
     grid-column: 1; /* Bottom-left */
     grid-row: 2;
 }
+footer > ul:nth-of-type(1) li:nth-of-type(3) h3,
+footer > ul:nth-of-type(1) li:nth-of-type(3) p,
+footer > ul:nth-of-type(1) li:nth-of-type(4) h3,
+footer > ul:nth-of-type(1) li:nth-of-type(4) p {
+display: flex;
+text-align: left;
+flex-direction:column;
+}
 
-footer > ul:nth-of-type(1) li:nth-of-type(1) p {
+footer > ul:nth-of-type(1) li:nth-of-type(3) h3,
+footer > ul:nth-of-type(1) li:nth-of-type(4) h3{
+	font-family:bold;
+	font-size:1em;
+}
+
+footer > ul:nth-of-type(1) li:nth-of-type(3) p,
+footer > ul:nth-of-type(1) li:nth-of-type(4) p{
+	font-family:regular;
+	font-size:0.7em;
+}
+
+footer > ul:nth-of-type(1) li:nth-of-type(3) p {
     grid-column: 2; /* Top-right text */
     grid-row: 1;
 }
 
-footer > ul:nth-of-type(1) li:nth-of-type(2) p {
+footer > ul:nth-of-type(1) li:nth-of-type(4) p {
     grid-column: 2; /* Bottom-right text */
     grid-row: 2;
 }
@@ -471,6 +489,22 @@ footer ul:nth-of-type(2) > li:nth-of-type(6){
 	align-self:center;
 	justify-self:left;
 	grid-column:span 4;
+}
+
+footer form input {
+  border: none;
+  border-bottom: 1px solid grey; 
+  background: transparent;       
+  outline: none;                 
+  color: inherit;               
+  padding: 4px 0;
+  width: 90%;                   
+  font: inherit;
+  align-items:center;
+}
+footer form{
+	font-family:semilight;
+	color:var(--color-darkgrey);
 }
 
 
