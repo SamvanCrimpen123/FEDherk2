@@ -570,6 +570,17 @@ main section:nth-of-type(4) ul li:nth-of-type(8) img{
 	bottom:1em;
 	left:-21em;
 }
+main section:nth-of-type(5) h2, p{
+	text-align:center;
+}
+main section:nth-of-type(5) p,
+main section:nth-of-type(5) h3{
+	font-family:'semilight';
+	color:var(--color-text);
+}
+main section:nth-of-type(5) h2{
+	color:var(--color-text);
+}
 
 main section:nth-of-type(5) p:nth-of-type(1){
 	font-family:semilight;
