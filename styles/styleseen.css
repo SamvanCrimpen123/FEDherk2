@@ -619,7 +619,8 @@ main section:nth-of-type(5) ul li{
 	justify-content:space-between;
 }
 
-main section:nth-of-type(5) ul li p,h3{
+main section:nth-of-type(1) p,
+main section:nth-of-type(1) h3{
 	display:flex;
 	justify-content:center;
 }
