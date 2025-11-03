@@ -460,6 +460,7 @@ main section:nth-of-type(3) ul > li img{
 
 main section:nth-of-type(3) ul > li p{
 	padding-left:2em;
+	font-family:'cnbold';
 }
 /* eind scrollbare klikbare dingetjes */
 /* eind 3E SECTION MAIN happy family met boog en caroussel */
@@ -489,6 +490,7 @@ main section:nth-of-type(4) p:nth-of-type(2){
 	align-self:center;
 	position:relative;
 	left:3em;
+	font-family:'cnbold';
 }
 
 main section:nth-of-type(3) ::-webkit-scrollbar{
