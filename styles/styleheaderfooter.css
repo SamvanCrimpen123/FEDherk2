@@ -428,11 +428,9 @@ font-size:.8em;
 /* socials */
 footer > ul:nth-of-type(3) img{
     display:flex;
+	height:2em
 }
 
-footer > ul:nth-of-type(3) img{
-    height:2em
-}
 footer > ul:nth-of-type(3) p {
     display:flex;
     justify-content: left;

@@ -366,10 +366,6 @@ main button:nth-of-type(1):active{
 	display: none;
 }
 
-label{
-		font-family:'bold';
-	color:var(--color-brown);
-}
 
 main section:nth-of-type(1) h2,
 main section:nth-of-type(1) p{
