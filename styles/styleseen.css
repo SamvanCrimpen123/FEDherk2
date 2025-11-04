@@ -262,7 +262,6 @@ main > ul:nth-of-type(2),
 main > ul:nth-of-type(3){
 	display:flex;
 	justify-content: space-between;
-	color: var(--color-brown);
 	font-family: 'wideblck';
 	font-size: 20px;
 	margin-left: -2.5em;
