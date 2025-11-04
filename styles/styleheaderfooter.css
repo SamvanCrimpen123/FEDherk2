@@ -80,10 +80,6 @@ body{
 ul{
 	list-style: none;
 }
-a{
-	font-family:'cnbold';
-	color:var(--color-brown);
-}
 
 /****************/
 /* JOUW STYLING */
@@ -104,10 +100,7 @@ header {
 	position: fixed;
   }
 
-
   /* HIER KLOTEN MET GRID  */
-  /* fr gebruik je bij grid, colums horizontaal, row verticaal */
- /* HIER KLOTEN MET GRID  */
   /* fr gebruik je bij grid, colums horizontaal, row verticaal */
   header{
 	display:grid;
@@ -130,7 +123,6 @@ header {
  header > section ul:nth-of-type(1) {
 	 display:flex;
 	 grid-column:span 1;
-	 /* als ie gek doet haal ul nth of type weg */
  }
 
 header > nav{
@@ -249,7 +241,7 @@ header ul:nth-of-type(3){
   }
   
   header ul:nth-of-type(3) li a {
-	color: white;
+	color: var(--color-white);
 	text-decoration: none;
 	color: var(--color-brown);
   }
@@ -260,7 +252,7 @@ header ul:nth-of-type(3){
   }
 nav ul:nth-of-type(2) a{
 	text-decoration:none;
-	color:brown;
+	color:var(--color-brown);
 }
 
 nav ul:nth-of-type(2) li:nth-of-type(1) a{
