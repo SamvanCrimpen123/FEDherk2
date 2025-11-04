@@ -92,6 +92,10 @@ header {
 	width: 100%;
 	background-color:var(--color-white);
   }
+  header a{
+	font-family:'cnbold';
+	color:var(--color-brown);
+}
 
   header button:nth-of-type(1) {
 	background-color: transparent;

@@ -210,8 +210,6 @@ main section:nth-of-type(1) li:nth-of-type(4) a:active{
 	box-shadow:10px 5px var(--color-brown);
 }
 
-
-
 main section:nth-of-type(1) li:nth-of-type(4) h3 {
 	color: var(--color-white);
 }
@@ -221,7 +219,6 @@ main section:nth-of-type(1) li:nth-of-type(4) h2 {
 main section:nth-of-type(1) li:nth-of-type(4) a {
 	color: var(--color-white);
 }
-
 
 main section:first-of-type ul {
 	justify-content: space-between;
@@ -254,10 +251,9 @@ main section:nth-of-type(1) h3 {
 	line-height: 1.28571;
 	padding: 0;
 }
-/* eind Gekleurde buttons met img en tekst: */
+/* eind Gekleurde buttons met img en tekst */
 
-/* begin bewegend element */
-/* hoe maak ik hier een bewegend element van en hoe laat ik het overeen komen met het origineel? */
+/* begin "bewegend element "*/
 main > ul:nth-of-type(2),
 main > ul:nth-of-type(3){
 	display:flex;
@@ -311,6 +307,8 @@ main section:nth-of-type(2) a {
 	font-weight: bold;
 	margin-left: 1.5em;
 	margin-right: 1.5em;
+	font-family:'cnbold';
+	color:var(--color-brown);
 }
 
 main section:nth-of-type(2) a:active{
@@ -364,7 +362,7 @@ main section:nth-of-type(2) img{
 
 /* 3E SECTION MAIN happy family met boog en caroussel */
 main section:nth-of-type(3)>p:nth-of-type(1){
-	font-family:'regular';
+	font-family:'semilight';
 }
 
 main section:nth-of-type(3) a{
@@ -484,7 +482,7 @@ main section:nth-of-type(4) p:nth-of-type(1){
 	font-family:'semilight';
 }
 
-main section:nth-of-type(4) p:nth-of-type(2){
+main section:nth-of-type(4) ul p{
 	font-size:2em;
 	align-self:center;
 	position:relative;
