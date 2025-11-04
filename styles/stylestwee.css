@@ -243,11 +243,14 @@ main p{
 	font-size:.8em;
 }
 
-main > img{
-width: 100%;
+main > img {
+  display: block;
+  width: 70%;
+  margin: 0 auto;
 }
-main ul:nth-of-type(2) img{
-	width:2em;
+
+main ul:nth-of-type(2) img {
+  width: 2em;
 }
 
 main ul:nth-of-type(2){
@@ -305,23 +308,23 @@ main ul:nth-of-type(3) li:nth-of-type(2){
 	 align-self:center;
 }
 
-main img:nth-of-type(2){
-	width:5%;
-}
+main img:nth-of-type(2),
 main img:nth-of-type(3){
 	width:5%;
 }
 
-main ul:nth-of-type(1){
-	display: flex;
-	justify-content:space-between;
+main ul:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2em;
+  padding-left:1em;
 }
 
-main ul:nth-of-type(1) button{
-	height:3em;
-	width:3em;
-	border-radius:50%;
-	border:none;
+main ul:nth-of-type(1) button {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  border: none;
 }
 
 
@@ -347,6 +350,7 @@ main ul:nth-of-type(1) li:nth-of-type(6) button{
 main button:nth-of-type(1) {
   background-color: var(--color-yellow);
   border-color: var(--color-yellow);
+  border:none;
   border-radius: 999rem;
   width: 90%;
   height: 3em;
