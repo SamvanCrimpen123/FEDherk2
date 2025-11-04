@@ -423,4 +423,16 @@ main section:nth-of-type(1) h3{
 	justify-content:center;
 }
 
+main section:nth-of-type(1) ul img:nth-of-type(1){
+	background-color:var(--color-white);
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+}
+
+main section:nth-of-type(1){
+	background-color:var(--color-lightlightgrey);
+}
+
+
 
