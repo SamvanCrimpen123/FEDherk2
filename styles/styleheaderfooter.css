@@ -88,7 +88,8 @@ header {
 	width: 100%;
 	background-color:var(--color-white);
   }
-  header a{
+  header a,
+  header nav p{
 	font-family:'cnbold';
 	color:var(--color-brown);
 }
