@@ -75,6 +75,11 @@ alle knoppen en tekst werden apart verteld, je moest elke keer 3 keer doortikken
 er was niet meteen duidelijk wat een knop was en wat niet, wat navigeren moeilijk maakt. 
 je kan ook je eigen pakken smaenstellen, en de eigen kleur m&M kiezen. dit menu was ook weer lastig te bedienen.
 "item heeft geen eigen functie"
+ <img src="readme-images/1p1.jpg" width="375px" alt="">
+  <img src="readme-images/1p2.jpg" width="375px" alt="">
+   <img src="readme-images/1p3.jpg" width="375px" alt="">
+    <img src="readme-images/1p4.jpg" width="375px" alt="">
+    <img src="readme-images/1p5.jpg" width="375px" alt="">
 
 
 
@@ -168,7 +173,13 @@ mdn is altijd up to date voor html dingen!
 
   ### Bevindingen
  screenreader op de 1e pagina werkt vooral goed als je het menu open hebt geklapt. er missen nog wat alt teksten. 2e pagina werkt een stuk beter, maar is lastig te navigeren omdat er veel visueel is.
+ ik had neit verwacht dat mijn eigen site redelijk door zo'n test zou komen, maar ik realiseer me dat er nog vel aan te passen valt om mijn eigen site te laten voldoen aan alle eisen.
  <img src="readme-images/screenreaderafb.jpg" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/2p1.jpg" width="375px" alt="">
+  <img src="readme-images/2p2.jpg" width="375px" alt="">
+   <img src="readme-images/2p3.jpg" width="375px" alt="">
+    <img src="readme-images/2p4.jpg" width="375px" alt="">
+    <img src="readme-images/2p5.jpg" width="375px" alt="">
 
 </details>
 
