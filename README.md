@@ -206,10 +206,6 @@ mdn is altijd up to date voor html dingen!
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
   ### Dit ging goed/Heb ik geleerd: 
 In een notendop heb ik vooral geleerd om door te zetten, en door te zoeken als iets niet meteen lukt. ik begrijp grid een stuk beter, en ik snap veel meer wat er staat als ik naar code kijk of het zelf moet maken. 
 
@@ -218,7 +214,7 @@ In een notendop heb ik vooral geleerd om door te zetten, en door te zoeken als i
 het bewegende menu was te ingewikkeld om uit te vogelen. alle fonts precies zo krijgen als op de website werd ook erg lastig, omdat de fonts in eht pakket wat ik gedownload had niet overeen kwamen met alles op de site en ik de rest niet goed kon vinden.
 ik vond vooral alles goed krijgen in javascript en css lastig.
 
-  <img src="readme-images/bewegendmenu.jpg" width="375px" alt="bewegendmenu img">
+  <img src="readme-images/bewegendmenu.png" width="375px" alt="bewegendmenu img">
 
 </details>
 
