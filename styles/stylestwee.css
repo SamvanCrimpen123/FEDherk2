@@ -230,7 +230,7 @@ main h1{
 main h2{
 	font-family:'cnbold';
 	color:var(--color-brown);
-	font-size:1em;
+	font-size: 1em;
 }
 
 main a{
@@ -421,6 +421,7 @@ main section:nth-of-type(1) ul{
 	overflow: auto;
 	white-space: nowrap;
 	scroll-snap-type:x mandatory;
+	padding: 2em 2em 4em;
 }
 
 main section:nth-of-type(1) ul li{
